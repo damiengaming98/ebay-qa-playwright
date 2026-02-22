@@ -1,0 +1,1511 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\playwright.config.ts",
+    "rootDir": "C:/Users/Damien/Downloads/L.D.R.E. De Silva/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Damien/Downloads/L.D.R.E. De Silva/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Damien/Downloads/L.D.R.E. De Silva/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "reports/html",
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "relatedProducts.spec.ts",
+      "file": "relatedProducts.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Related Best-Seller Products Feature",
+          "file": "relatedProducts.spec.ts",
+          "line": 24,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "Functional Tests",
+              "file": "relatedProducts.spec.ts",
+              "line": 30,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "TC-001 | @smoke @regression | Related products section is displayed on product page",
+                  "ok": true,
+                  "tags": [
+                    "smoke",
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 10264,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://www.ebay.com/itm/325169356706?itmprp=encpd%3AAQALAAAC8KH2FV7K68%2BKoE8Ug1DC9UY4JAQFt1NFvRR6KNJcpF3kA82PMJmKs%2BP1cltIMwDN%2BNzvlmCE43w9S0pgvaCJ2DnYAbaVrEegWilPGUlHt2VkADp3O%2BOMKfvok3gsUd1kXLJg9jhe3UsjGxp1tCY7ViIK4gcu1ugPs53o8Xot7TogVTe6eNZhrhLLleqDKDfWGGaEGtZwgBhQShVJNO%2BkM0rI0OrtixYposDXIJT8jeuBy3WLGbkl%2B0vwWEGRUlcuOWSywDDJ51v8WvhepUOf3B6lQBASmCdrZwE4QU3%2Bn6ut8O7FtnreRfwjBRIJND7CMoBS4O9MD5xm4GWJWiP5z%2FjDA6S4BZ6dyrwFcnCDGphnBNVLEZ0vC%2BsDjhe63JkbELPiLHPsbHhwwJm4AG%2B0NImQPcGz3Y9McgYYSfcrL1xPqnaak%2FmK%2BBHS%2FcZByakueldNDEvn68MNcQNHohF28%2Bu8FLp2FvE%2B%2BsM3Ol3NwCFVRLqA4fLRUnR2bnH9NDYDFGYB2e%2B0tQwR4lhSG9DdiU20%2FK6T4j7NRIRDlGTN%2B6Rs%2Fz2uqq0rfcCx6qYvCh9k%2F6TLStqs5ADmm4LbQbfMpcgB0icjNDTy4R%2BYPwml9miByAqG00LE12gCg8%2FddH%2FlvICzDCOTxu8JJ1hW3tlnsTYc7g%2FVyJuKHxmtdmvwgmmT0TudokZbV6syeb1GAuNj8u9HP1EDCDsgkw1Jexsc7rV4WonmFcnxJyLnEx5EJ5iEw0ais4Rc%2BB5dRlMx59srvfa0g0g%2BJ5WZIPSJ5JCxdiIzH8VY6eu%2B7l%2FKcAqxegZ3Nn0T4m0i5gSJpvr3tVqmxP4hDSO7pPAT9uu5DedN8fLKFA4i262HyGpc2GfmB499cZ5hfSGlv7TcUtbsL99Kj4X%2BvGUeFJ4fve6Qok928BWVv9NTHplSqrXlmdyY902gBY3SwdUGvBw%2Fio%2Fug0TT2ejs%2FsCK2Ao2D3Wn9GYTuVQoMdDkVWf0BpJcJ6BxLJW2&itmmeta=wwHmKhYwY%2Fjx0DQwMUtKMlRIQllXRFlONE1ZMTJKQk5BSjVGQzQwMUtKMlRIQlFaOVhGRkE2RkdXSFRDM0JZNbagDA%3D%3D\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:02:26.732Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-8f3292d6119d028edb1a",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 36,
+                  "column": 9
+                },
+                {
+                  "title": "TC-002 | @smoke @regression | No more than 6 related products are displayed",
+                  "ok": false,
+                  "tags": [
+                    "smoke",
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 14675,
+                          "error": {
+                            "message": "Error: Related products count should be between 1 and 6\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m",
+                            "stack": "Error: Related products count should be between 1 and 6\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:66:73",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                              "column": 73,
+                              "line": 66
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 64 |\u001b[39m       \u001b[36mconst\u001b[39m count \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m productDetailPage\u001b[33m.\u001b[39mgetRelatedProductCount()\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 66 |\u001b[39m       expect(count\u001b[33m,\u001b[39m \u001b[32m'Related products count should be between 1 and 6'\u001b[39m)\u001b[33m.\u001b[39mtoBeGreaterThanOrEqual(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 67 |\u001b[39m       expect(\n \u001b[90m 68 |\u001b[39m         count\u001b[33m,\u001b[39m\n \u001b[90m 69 |\u001b[39m         \u001b[32m`Related products count ${count} must not exceed ${MAX_RELATED_PRODUCTS}`\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "column": 73,
+                                "line": 66
+                              },
+                              "message": "Error: Related products count should be between 1 and 6\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 64 |\u001b[39m       \u001b[36mconst\u001b[39m count \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m productDetailPage\u001b[33m.\u001b[39mgetRelatedProductCount()\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 66 |\u001b[39m       expect(count\u001b[33m,\u001b[39m \u001b[32m'Related products count should be between 1 and 6'\u001b[39m)\u001b[33m.\u001b[39mtoBeGreaterThanOrEqual(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 67 |\u001b[39m       expect(\n \u001b[90m 68 |\u001b[39m         count\u001b[33m,\u001b[39m\n \u001b[90m 69 |\u001b[39m         \u001b[32m`Related products count ${count} must not exceed ${MAX_RELATED_PRODUCTS}`\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:66:73\u001b[22m"
+                            }
+                          ],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:02:37.085Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-e4014-ated-products-are-displayed-chromium\\test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-e4014-ated-products-are-displayed-chromium\\error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "column": 73,
+                            "line": 66
+                          }
+                        },
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 21963,
+                          "error": {
+                            "message": "Error: Related products count should be between 1 and 6\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m",
+                            "stack": "Error: Related products count should be between 1 and 6\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:66:73",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                              "column": 73,
+                              "line": 66
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 64 |\u001b[39m       \u001b[36mconst\u001b[39m count \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m productDetailPage\u001b[33m.\u001b[39mgetRelatedProductCount()\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 66 |\u001b[39m       expect(count\u001b[33m,\u001b[39m \u001b[32m'Related products count should be between 1 and 6'\u001b[39m)\u001b[33m.\u001b[39mtoBeGreaterThanOrEqual(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 67 |\u001b[39m       expect(\n \u001b[90m 68 |\u001b[39m         count\u001b[33m,\u001b[39m\n \u001b[90m 69 |\u001b[39m         \u001b[32m`Related products count ${count} must not exceed ${MAX_RELATED_PRODUCTS}`\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "column": 73,
+                                "line": 66
+                              },
+                              "message": "Error: Related products count should be between 1 and 6\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 64 |\u001b[39m       \u001b[36mconst\u001b[39m count \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m productDetailPage\u001b[33m.\u001b[39mgetRelatedProductCount()\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 66 |\u001b[39m       expect(count\u001b[33m,\u001b[39m \u001b[32m'Related products count should be between 1 and 6'\u001b[39m)\u001b[33m.\u001b[39mtoBeGreaterThanOrEqual(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 67 |\u001b[39m       expect(\n \u001b[90m 68 |\u001b[39m         count\u001b[33m,\u001b[39m\n \u001b[90m 69 |\u001b[39m         \u001b[32m`Related products count ${count} must not exceed ${MAX_RELATED_PRODUCTS}`\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:66:73\u001b[22m"
+                            }
+                          ],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 1,
+                          "startTime": "2026-02-22T14:02:52.958Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-e4014-ated-products-are-displayed-chromium-retry1\\test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-e4014-ated-products-are-displayed-chromium-retry1\\video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-e4014-ated-products-are-displayed-chromium-retry1\\error-context.md"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-e4014-ated-products-are-displayed-chromium-retry1\\trace.zip"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "column": 73,
+                            "line": 66
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-e741acb82ab0b22ac679",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 56,
+                  "column": 9
+                },
+                {
+                  "title": "TC-004 | @regression | Related products are within acceptable price range of main product",
+                  "ok": true,
+                  "tags": [
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Could not determine main product price — skipping price range check",
+                          "location": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "line": 89,
+                            "column": 14
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 23646,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://www.ebay.com/itm/325169356706?itmprp=encpd%3AAQALAAAC8PeAmkaOKR28xfluzDILgCTVM9SUr88j3Ergt3llrurYhz%2BVWFq6bQuU12g3Je3GBApf%2BKrTtZTijbHf1oCxZuibOXT9i3XBueHxNOBeCQqPcMu0s0zOQaWnSdIgZBQpmf67hIxKyM1SiFM4feik20lrkDGl5PV%2Bccr6GDfInaD8c8fHw5BLXAfdUkccK2WMbGpywtNQv1S06a0hdKbXXHPKEIeqe1hgygE%2B62h3TKeYNM6HNSUvDHsF2fVFk7zOuwflveYW41lGI5W2Z%2BeEVMU9gs4iv2IrH6FNUNawYL3wgBYlr2m4u1RnDqUeQjRn%2Fgrkdn%2B%2BDYiSKGJVokfTQLNRxD5lkaAzn5wRd%2FGiMYntC1wvgh3Zalgiy5VHhPiTDV%2BFKEsdmX2MdiqT3KZXyzvgMBYvEIWCerNLWrpHCawA4fU%2BANo1YmDlKEpMogxoYz07OAtHcZohuI46JkVvhympDQ9jtCIq6iQDdNQy71ctRYZ2L%2BFR50kubTe6dHCLcU0Glu9jXYu3JL9UcB92EWc322NAtjXxfIEtCF4%2FPZyjW5KfkqXss2SMG5ypgsUaqlSRTy1ZOy%2BqaEC1hqJjZu3YWe2dX39j%2FeXqZUqv1eoPrBCR%2FkcCtrdJ%2FcKspxkXpcDpXn2bbnWgEm2kZCz6Uk%2FHfqbQw6aLYL3YqSSeePNW7%2BAjPudz57jGI%2F6wcnOcTD0nZ4zM9KmTatpGG2OoCDYFPoKRx%2Fu8szPFyWtZUgBu%2B80391xovXF7kTwLLGJBIfuH%2BgxbRxSuTNEp35%2FRlRUP3muAnt0z2YSOn2ZxesB0lZK8MyP%2FxUUn8scosDRUgqZUxdGfW%2B%2Bq4ZbhWnQQP0PdkLwmFBbhgf%2BLdwndDbNQrZGbTwo3GbxFW40G2KbjZoT%2B1QBs9%2BO3jOsHgzsSE%2FQgN%2FKzOgDi7GPuHEz%2BH1Uc1e2x%2FbE4mFa5Md2DuMGrZbuok8TT5Gn3U1bxPTQFN78nN6eM6vEXDc5gHO7FeIA0&itmmeta=wwHmKhYwY%2Fjx0DQwMUtKMlRKV1dGWTJaWEFEWEdNUllKNllLODQwMUtKMlRKV0s2NENGMTg3TTU2UjAzWFFaVLagDA%3D%3D\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:03:16.527Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "description": "Could not determine main product price — skipping price range check",
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "line": 89,
+                                "column": 14
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-2b8323f63942eaeba477",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 77,
+                  "column": 9
+                },
+                {
+                  "title": "TC-006 | @smoke @regression | Clicking a related product navigates to its product page",
+                  "ok": true,
+                  "tags": [
+                    "smoke",
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Related products section not found — skipping navigation test",
+                          "location": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "line": 117,
+                            "column": 14
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 8526,
+                          "error": {
+                            "message": "Error: No related product at index 0",
+                            "stack": "Error: No related product at index 0\n    at ProductDetailPage.clickRelatedProduct (C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\ProductDetailPage.ts:178:38)\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:120:7",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\ProductDetailPage.ts",
+                              "column": 38,
+                              "line": 178
+                            },
+                            "snippet": "\u001b[90m   at \u001b[39m..\\pages\\ProductDetailPage.ts:178\n\n\u001b[0m \u001b[90m 176 |\u001b[39m   \u001b[36masync\u001b[39m clickRelatedProduct(index\u001b[33m:\u001b[39m number)\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n \u001b[90m 177 |\u001b[39m     \u001b[36mconst\u001b[39m cards \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mrelatedProductCards\u001b[33m.\u001b[39mall()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 178 |\u001b[39m     \u001b[36mif\u001b[39m (index \u001b[33m>=\u001b[39m cards\u001b[33m.\u001b[39mlength) \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m`No related product at index ${index}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 179 |\u001b[39m     \u001b[36mawait\u001b[39m cards[index]\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 180 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 181 |\u001b[39m   }\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\ProductDetailPage.ts",
+                                "column": 38,
+                                "line": 178
+                              },
+                              "message": "Error: No related product at index 0\n\n\u001b[90m   at \u001b[39m..\\pages\\ProductDetailPage.ts:178\n\n\u001b[0m \u001b[90m 176 |\u001b[39m   \u001b[36masync\u001b[39m clickRelatedProduct(index\u001b[33m:\u001b[39m number)\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n \u001b[90m 177 |\u001b[39m     \u001b[36mconst\u001b[39m cards \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mrelatedProductCards\u001b[33m.\u001b[39mall()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 178 |\u001b[39m     \u001b[36mif\u001b[39m (index \u001b[33m>=\u001b[39m cards\u001b[33m.\u001b[39mlength) \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m`No related product at index ${index}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 179 |\u001b[39m     \u001b[36mawait\u001b[39m cards[index]\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 180 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 181 |\u001b[39m   }\u001b[0m\n\u001b[2m    at ProductDetailPage.clickRelatedProduct (C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\ProductDetailPage.ts:178:38)\u001b[22m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:120:7\u001b[22m"
+                            }
+                          ],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://www.ebay.com/itm/325169356706?itmprp=encpd%3AAQALAAAC8Ol3Rtt%2FapNgtwFQ6SjG6x0MtOQRA6RsoQI2dq1VXYR%2FopKoDqxUSQr2OwcLVAbw3L2Ylh91JkFAZGsFCtVXtmWgZKc16THiixcemaCRL4YJyHPVy4%2BWPyDsqc9xJuTUUkyBvaMXHAF1xzyVbPkBWL%2Bb3kDmkO9wV9Zw3lBD8vYpcV7JMikEXDiD5BW033rEKGJH6GTISNbAqNj2EmMPa3e4FXOw%2FPk1yY6vjcB2TK%2BRZc53N3BpdcTIA7QqQhspdUH9%2F4FAeI%2Fn3BoFfxufgs83EKE93TIEwybismy6y9z6TXzwewJyb2QsJ9xZINMl1kL8%2Ftikg1vw2ZSBO1ZM7K8LVt9XWDYclDeqRkO2yBPYzQSpfvNVdNhDNn%2B003Y4zc7R4p7MK4n0gjjkElQeaxgZpnCBVktGAvaKUb6pW4LMx1hKiBbZUIqlYI5SBu%2FLU527npnQZmQr7CgRCQ17LBU6unKS%2BpxaQF6BiX0lzqUkxkTx2OCEkm5JVlKrxFnjqSpJ5M3KvyAKLuFf6H4%2BS9UxoED0GeDc1hbTOSYr85mVJb7Kr0BSfhTK4qplmXvQbWrP9Bdsq3drOKj%2F3Dk9Ia5vLYxayK3q8MJpOa6gmE1p%2FP8ObUleAD%2FTGtp6HJjP5R5WdZsnDpU%2BpiJeF%2FSnc1jgM3lFPS0irr3Y66TqIrWl%2BgOvUMstqA0KWuTGh8FE2IK7w2FdG%2B4HULra4kdeZ3jIvQWuKMe%2FZ2wdlO38%2FMYI%2BUJjtLklJHivMDQHqdlUsftdlVKJUlwONKn8VqEFILEkDBtHgHCV6mRDRKSRvKSUrwNv%2F0yyd%2BMipoYSn76OCLhTcukZ06a4pK9l52MGFwFnJlhruhB3UrlsoZU3nGCLyluUHdA5KEcd%2FSu%2B9IpspV6A0ewp490GmJ%2BYW82JS5jleM655tc4VV0k8VYBIS9ZGGxX48E9JIRnUNQZxrtpC66X7zfHtVKHl3i0C8Iaeyuu4RlzN21SG1Vde%2B53ZgOF&itmmeta=wwHmKhYwY%2Fjx0DQwMUtKMlRLS1FLQkhDTTZDWVExWkY4MzUwRDQwMUtKMlRLS0VUVFZORE02VFBLRVQ1NFlSTragDA%3D%3D\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:03:40.265Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-2d58b-vigates-to-its-product-page-chromium\\test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-2d58b-vigates-to-its-product-page-chromium\\error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\ProductDetailPage.ts",
+                            "column": 38,
+                            "line": 178
+                          }
+                        },
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 15745,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 1,
+                          "startTime": "2026-02-22T14:03:50.153Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "description": "Related products section not found — skipping navigation test",
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "line": 117,
+                                "column": 14
+                              }
+                            }
+                          ],
+                          "attachments": [
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-2d58b-vigates-to-its-product-page-chromium-retry1\\video.webm"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-2d58b-vigates-to-its-product-page-chromium-retry1\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "flaky"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-54d7132d9643164cceb6",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 105,
+                  "column": 9
+                },
+                {
+                  "title": "TC-007 | @regression | Related product thumbnails load correctly",
+                  "ok": false,
+                  "tags": [
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 16396,
+                          "error": {
+                            "message": "Error: At least one related product image should be loaded\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                            "stack": "Error: At least one related product image should be loaded\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:150:9",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                              "column": 9,
+                              "line": 150
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 148 |\u001b[39m         loaded\u001b[33m,\u001b[39m\n \u001b[90m 149 |\u001b[39m         \u001b[32m'At least one related product image should be loaded'\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 150 |\u001b[39m       )\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 151 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m\n \u001b[90m 153 |\u001b[39m     \u001b[90m/**\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "column": 9,
+                                "line": 150
+                              },
+                              "message": "Error: At least one related product image should be loaded\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 148 |\u001b[39m         loaded\u001b[33m,\u001b[39m\n \u001b[90m 149 |\u001b[39m         \u001b[32m'At least one related product image should be loaded'\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 150 |\u001b[39m       )\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 151 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m\n \u001b[90m 153 |\u001b[39m     \u001b[90m/**\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:150:9\u001b[22m"
+                            }
+                          ],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:04:06.271Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-b46df-t-thumbnails-load-correctly-chromium\\test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-b46df-t-thumbnails-load-correctly-chromium\\error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "column": 9,
+                            "line": 150
+                          }
+                        },
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 14053,
+                          "error": {
+                            "message": "Error: At least one related product image should be loaded\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                            "stack": "Error: At least one related product image should be loaded\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:150:9",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                              "column": 9,
+                              "line": 150
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 148 |\u001b[39m         loaded\u001b[33m,\u001b[39m\n \u001b[90m 149 |\u001b[39m         \u001b[32m'At least one related product image should be loaded'\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 150 |\u001b[39m       )\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 151 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m\n \u001b[90m 153 |\u001b[39m     \u001b[90m/**\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "column": 9,
+                                "line": 150
+                              },
+                              "message": "Error: At least one related product image should be loaded\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 148 |\u001b[39m         loaded\u001b[33m,\u001b[39m\n \u001b[90m 149 |\u001b[39m         \u001b[32m'At least one related product image should be loaded'\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 150 |\u001b[39m       )\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 151 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m\n \u001b[90m 153 |\u001b[39m     \u001b[90m/**\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:150:9\u001b[22m"
+                            }
+                          ],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://www.ebay.com/itm/325169356706?itmprp=encpd%3AAQALAAAC8JGlnWCuJbQP1RKK91TsMCoy5CQP9jtQZxxx2f6UIGKPurAUM8ozg2QjbZ15HqeMQRJlGWp4ey0IwKcZQMa%2FIc6Ez9HnBE4NgUtOYbOyB94ppoPGHxd1ayaTebzwbmyKSBdROAgqaKf44wXJy0scI1vLSFt0Bn2p55yE%2BSp28e1mTTiRojmuG8wQhhtyjfBYYTJv4YU4EG84etbZc7s2ccMIiiHPd86nzfPp9pMIfI4w99pQ%2FS14QfYu8d68pjs%2F4lG4Cr2i9NMAjK8lQ%2B9mldxHE2t%2FhBmEOryKM8vnF5iQvpMCzYJKv%2BhF0iqmjf7STWWYacWpIQYF6jmcSf2jvV7wOvQhILQLhWvrxNt5y1NJt4yf1prel0ImOlESxOFyaj8%2Bl6PZeKCGGUAOXaDEUwIX5ZBgx588pYwYwIb5CBzkafUEoQl3EN09OsW9t2amN5J3TWwWf3U0nfziDJOFfpSBwGOorSBdJB9p0AAxh5LgjABxG4Xjii5dpiliBx0O8M6R1FVgfS1LjhDqX%2F%2BP7RPfJAtkHNBARvO7rSFjVf%2B29jIWPkwbkC0HxmeV0tJ8NN7fuLluJJn7xV67hPPq8mWOy1TAaudtdT6WyANLZWA0s4FMEOcbCG8U5RLDqT2p%2BAvhNnDkKqRNjdlYosAFXA9XlA3vQSXIpDd1ZTgOaE2KGk4EJB5sYyZedeDXB5NbwgxlsPYD3OJWIFbFZnL0NQiW%2BdMu%2Fh4Tq38imSqoQHGhqQyyTJOZMW5JCwuTp1CGVj3qevlsXy942RFzuepLZtmg3H3ZSTygfmrfA8Er4DavZuy182pvONGDhPjgo3wY9eO4TnEYJw7qA%2FNs5SMFJo2zf1v03v1lMauzJXNh%2FbcUMUDpIMinAhY3NyC15pHw%2B%2FwokJSEre3lo3jFELqmpIFZqiBLTC7fx1XQ1JH6iLWcMg%2FwCx%2BOj7dSfJ6kTAFLw2sxhUW02jXX1xqqW48LA59PlrM8HRF1wCUySzIeUatA&itmmeta=wwHmKhYwY%2Fjx0DQwMUtKMlRNWVMwNUgwN0dGOVo3MlhEMTZCNDQwMUtKMlRNWUgzOVBBRTJWQjlaS0NCUlFQObagDA%3D%3D\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 1,
+                          "startTime": "2026-02-22T14:04:23.829Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-b46df-t-thumbnails-load-correctly-chromium-retry1\\test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-b46df-t-thumbnails-load-correctly-chromium-retry1\\video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-b46df-t-thumbnails-load-correctly-chromium-retry1\\error-context.md"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-b46df-t-thumbnails-load-correctly-chromium-retry1\\trace.zip"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "column": 9,
+                            "line": 150
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-545f0357928a46fa7f1e",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 131,
+                  "column": 9
+                },
+                {
+                  "title": "TC-008 | @smoke @regression | Related product cards display title and price",
+                  "ok": true,
+                  "tags": [
+                    "smoke",
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Related products section not visible",
+                          "location": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "line": 167,
+                            "column": 14
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 14877,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:04:39.779Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "description": "Related products section not visible",
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "line": 167,
+                                "column": 14
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-8fe18b94a7dac343062d",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 157,
+                  "column": 9
+                },
+                {
+                  "title": "TC-009 | @regression | Related products section has a visible section header",
+                  "ok": false,
+                  "tags": [
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 10120,
+                          "error": {
+                            "message": "Error: A section header (e.g. \"Similar sponsored items\") should be visible above related products\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                            "stack": "Error: A section header (e.g. \"Similar sponsored items\") should be visible above related products\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:201:9",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                              "column": 9,
+                              "line": 201
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 199 |\u001b[39m         headerVisible\u001b[33m,\u001b[39m\n \u001b[90m 200 |\u001b[39m         \u001b[32m'A section header (e.g. \"Similar sponsored items\") should be visible above related products'\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 201 |\u001b[39m       )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 202 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 203 |\u001b[39m\n \u001b[90m 204 |\u001b[39m     \u001b[90m/**\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "column": 9,
+                                "line": 201
+                              },
+                              "message": "Error: A section header (e.g. \"Similar sponsored items\") should be visible above related products\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 199 |\u001b[39m         headerVisible\u001b[33m,\u001b[39m\n \u001b[90m 200 |\u001b[39m         \u001b[32m'A section header (e.g. \"Similar sponsored items\") should be visible above related products'\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 201 |\u001b[39m       )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 202 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 203 |\u001b[39m\n \u001b[90m 204 |\u001b[39m     \u001b[90m/**\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:201:9\u001b[22m"
+                            }
+                          ],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://www.ebay.com/itm/325169356706?itmprp=encpd%3AAQALAAAC8DLCvnijIxmFTaDkwDtNK%2BS9R%2FXXq6UGHu5z5WdMqDo%2FBDXnqMqFHPAzUMSmrMFqwXruN%2BChP%2BND0gCmdUNkoJlj9SAAtHvgqkxbLNpp%2F7opuRtPpJafMmSsrDxFSHRTDIg8fVcwWM2%2BDn5CCKts1V7vfL0o8%2FSg1eZP09iU%2BXx67c9b%2F%2Bb6%2BuB5kg%2FAch9XxO9XxfrQr%2FydYdoIKVjV2rnIvkY533nU8gVtS4ogpXC4%2FFngP8KMnU4WpVF4fWZftloROF8phhv39M0oyiNZX0crA3DFN5utcvgvITbfAET4OIPmuvMCOpCY0jnP1VeGgk2AP4PrSTLKehOagrtdL8O4X63od1CoqMK3AQWAsz6ZLNzaZPXL8QN%2Fecq3zR3xJt8Ruej%2Fxc5zukF9c6vGH1gAh2BkZZEipxnfdsN%2BR8Xb4ejd9NfE1QgRJc6TMoFsp3TlH3H9N9glIwP7lLLjVSX%2FW1GMg%2FXWvnfRMX1Qv0G52jl1K8MMSLVj4sZ%2B%2BdV7ugfJFb4bFJ195HEX1z2wXAOlY2gJWOhQFJVgmjMDu0JSxY4iqFeEz6k5MEu0RPG%2BtDq9aM01Ov30vUl%2FgzHLKaJG%2Fv6i72GZBarvRhpUJskBtflc%2BfwylheHVYy76bIymop8huk3uDcwPFpjmwBEvyVWkyeuvE9Me%2FayUwkSox8INlYX8%2FT4syArc3S%2F233k5sSG0AeTItSj%2BWpiKpPFHRGuw96aLPE4XxWaTYQSVxEWIXyHvN11E%2FmJDH9Ggx3KYT3Jx%2FCAle0oYiE3VuIcJSnsVyIvTEE6mVWEHl1s6IrGuXYu%2FzavgR2TLBjX9Tvk%2Bagg9kPvb6W6w%2FxYv9LqlGQwOtnImaqkRdikvXBS43vlwQFDBrlmtzgRLHs%2FTGC%2F94tNSPVr%2Buvy%2F7Z4zYXUKb7pOIHwzV5rUsItSODiSPL3F27kVqrk0t4nPcYDiaIRifFakcClhgw9J5gTvOmv9aYLVm0IRqpHK2YHF2abek%2B8&itmmeta=wwHmKhYwY%2Fjx0DQwMUtKMlROVkpWNTJBVEpBTjk4UUpYMkIzWTQwMUtKMlROVkFaTVJaMUFTRDVFU1JZV1JIUbagDA%3D%3D\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:04:54.747Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-1e1cb-as-a-visible-section-header-chromium\\test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-1e1cb-as-a-visible-section-header-chromium\\error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "column": 9,
+                            "line": 201
+                          }
+                        },
+                        {
+                          "workerIndex": 6,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 12269,
+                          "error": {
+                            "message": "Error: A section header (e.g. \"Similar sponsored items\") should be visible above related products\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                            "stack": "Error: A section header (e.g. \"Similar sponsored items\") should be visible above related products\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:201:9",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                              "column": 9,
+                              "line": 201
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 199 |\u001b[39m         headerVisible\u001b[33m,\u001b[39m\n \u001b[90m 200 |\u001b[39m         \u001b[32m'A section header (e.g. \"Similar sponsored items\") should be visible above related products'\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 201 |\u001b[39m       )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 202 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 203 |\u001b[39m\n \u001b[90m 204 |\u001b[39m     \u001b[90m/**\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "column": 9,
+                                "line": 201
+                              },
+                              "message": "Error: A section header (e.g. \"Similar sponsored items\") should be visible above related products\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 199 |\u001b[39m         headerVisible\u001b[33m,\u001b[39m\n \u001b[90m 200 |\u001b[39m         \u001b[32m'A section header (e.g. \"Similar sponsored items\") should be visible above related products'\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 201 |\u001b[39m       )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 202 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 203 |\u001b[39m\n \u001b[90m 204 |\u001b[39m     \u001b[90m/**\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:201:9\u001b[22m"
+                            }
+                          ],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://www.ebay.com/itm/325169356706?itmprp=encpd%3AAQALAAAC8B%2BgkUhfLdpSrJEjfLbSlLur%2BtXPRZzw8PaLBtsBiMsaY3Lis2JzZbTi%2FKclyNU%2FvOmEQjRkVxjqh6mlMD77UXxLZijCAOi1HhQHN1g0CsHmq9sXCiFpip18zZpt61ClaO%2BipnV6DXiUEH7ni25Dd0johWDDcRz1bg6ot3x7bZH6urd7esMO2hoUQ60%2BDFSGFMzLT6edSa5w1h6CSqE2VNKAPwaDp6g6OM%2B0a%2BDcZVTfUEfjuGMvPqD2CDryM2h5qg5IZTtQBk3tKhoP6QOSWsQRxQ3S%2BChRAOwJHTJznhagSjPNhylnFMIs3no0li7QObH9%2BdA1hs%2F5hy0%2Frk%2F%2BiHbKNZIpX42W4rlLVYohWjVOJSr7OvXgVFZ5HXb1otKnpRTbZyIPD%2FdbG8mlGbk9vCfMwrdiIS%2BYA9BiGdLACx%2B074F3KsinfcObXHd13bRj9iOMsA00hyUxtCzntSncYV%2FUD8ieu7xLZ8G9OIsh31qfiz0%2BLmDtd6sYrY6NdWKmrJkMfmo1ZftUq9YE1JTmXsjUwXvPs8NnsVrD7%2B9XDxnxMS1LHFuaQx8KqQe05a9zUg918P6Hrema3r%2FfJ%2FnCxk1gDuJKcVXT8Z91Vh45bXdfNquSl%2BFUHldejN9Rud36p7u5jjd5Pdqynhzhee2qZtvWNAMEs2s8K3XEwVIRqvQHomZNmdthm%2BpJ3XXke%2F4KPhlXTR1PseOBGvoNXsuRUPONEqwAsBAf6bTRPs%2FRb48Lv7q%2F%2Fyl8W4tO3Cj4iLSMowUAq5Sd3WurlmdNcUiBLeX%2FMwJpwAHYFESmAE8E2dTIfqX6b4%2BwomirOV6x3iiFNbbRrs%2Ba1xdOn2W2YvuEhnSMLxwRxRb9vfFJd%2BTrKtAeOvmkcqj41hvVfqpItamdE8hbpbEN4C38rcS%2B%2F4FjcRNl%2FVLH%2FUplOpbl0lI1SBghd7DH%2BhWV0n1FtrY0y4sNIRNM5saJl85oqAbcjATHBvmU9EsuvqsDI2Xj9KwVWs%2FO&itmmeta=wwHmKhYwY%2Fjx0DQwMUtKMlRQNzlSWDNRR0hONUZWRDI5UlFEMzQwMUtKMlRQNzE0QU02TkZTUkpDMUVZTllTWbagDA%3D%3D\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 1,
+                          "startTime": "2026-02-22T14:05:06.009Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-1e1cb-as-a-visible-section-header-chromium-retry1\\test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-1e1cb-as-a-visible-section-header-chromium-retry1\\video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-1e1cb-as-a-visible-section-header-chromium-retry1\\error-context.md"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-1e1cb-as-a-visible-section-header-chromium-retry1\\trace.zip"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "column": 9,
+                            "line": 201
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-b41505c6fe86bc88b220",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 185,
+                  "column": 9
+                },
+                {
+                  "title": "TC-012 | @regression | Exactly 6 products shown when many best sellers are available",
+                  "ok": true,
+                  "tags": [
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 8198,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://www.ebay.com/itm/325169356697?itmprp=encpd%3AAQALAAAC0PwcVc22wAsNomfUc4VshZbO6JR15KoIZDYsv6nWASyYhzRYuPvd8kU8wYWwhCVLk%2B926irDmiYR1b9Pov00aJrDooYYnBS0BwT%2BJbq36voyK4jRU8I2Ie3khT9M4u07bInkWg17Af9pdVj3OrkmE6V0FIkrhpK80wWy00JAob8rOSNNKPIAi%2BmUdAG%2BC81qCx%2FYjuTB%2BuQPLgWopNIpEmT8xpqQvMWdcNvTtwft3aXBe20eusrzOk0nZg22RzKfVjkQNDcyGU%2FW%2B6bKTl1MyPpTVlfGxMRCXI4jqD9KVkJ%2BydHxcddhIs9hFaSXWtLP%2B5uPMtb6PgnPzYkcHcbfmpy8AemRe0Z04BfLMELxzUeAuQL76LeBTXMD58IxQEyNJlagRpVwqLFdUCwLTdHZiK7nBSNqW1BXz1dqwAfgZ12GHvdi5LUfGZRx3yz8Onrgl%2Bqwc4fuPZkQMefvewMz%2BnQy8bGSE8rrWTKwzWShqiFOHOXm2wpvQ3dukXgYi0wp6t17Xqv1hGhqCBW2fRu7jD6jHwUt5w9EUhOopfug3wJMASvRSWbQI49wKBXaKp%2B29368fZstt205KPY9oyKWqF0zGjann7bWGuJ9gddXnRiWP6HA3YsVL911PADRir7LSMC7pIG%2Bx8K%2FiuIJgTLSJbiU%2B4pz1sUKrq71IawcytaRi%2FolO9A8sl%2F60yswM6LQr4wgd0a0gN6CjJDvmJxhKa5OREUOFDkXocRNMKfhaUhDr32RXPV6oKujUA3WH8UY3yYyKXky6DySCL3zgXdC0hwlAqfbnqKltHldXutqFWhZEkA4AQmpcZDimxIj7mAkuBkJvdBkrtFWTqUMDsgiR4IqKjyo2jf%2FqolCH88XcOj0M%2FQDpALUukRuoaUFX%2FJyeSBFpZBi4NM7noHMawPoiL8nPObxOW4B6FlyRRIS2po%2Fxq%2BmQT6Yfhpf22Sb451ceA%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtKMlRQTUYxWUVKRVNLUDhIQkYzTjZFVjQwMUtKMlRQTTZYSDFQNEpGRjVBUVZGREFGWragDA%3D%3D\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:05:20.120Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-6790017245d146dc0e57",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 208,
+                  "column": 9
+                },
+                {
+                  "title": "TC-013 | @regression | Main product does not appear in related products list",
+                  "ok": true,
+                  "tags": [
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7539,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://www.ebay.com/itm/325169356706?itmprp=encpd%3AAQALAAAC8JIBuw04SXVDX1oH84gfHqAn4sqBZs3J7hcSGYOCkk3S9d64csMkvHy60mh6b0zsOa6DMk6Ph239Xg3MDeqct6eR8xCZp1BMPeTP692NFa5YIY8QlrzAYkQTak%2Bw8FdZZvhxdMWJheIJp7evN47Ib%2FdJJfBtx7fCS90T7bneDEI8Z9yhbU1m2Oqc5y%2BNbOKLPVnXJGde74N3HCF%2FggokjRvO8hU%2B%2BlCCcXFcxiEB0iK2c7ky4Sx14D1Xv%2F4om6WGZCUU3%2BHzy3aByHbhQDsej5Y7x5nC5WZJxV93SJb424O51bWvxIl5tksA3TzwGIof57rvJtPRZ4RDBF1E642jCREhYS6yeOUksCNqT2Qvht%2FhkCXyh%2BPA%2BbuJ81zBKMbcVDQb926wmbsNs2FSObyozwd4rmvMIqEceSm%2F7ks9K7gLM8QAhmJfo1MbDEdZd6oJMUHKDMgZRow36vSMNkmmSfXswjpquqRVicMvPpIFkE7ksBCy%2BCoq0eFXLzLP5nLtC%2FHcceIA1nl7iVWA0%2BLIVvemenLMNUrK%2FPsYtBYh7BBco2%2BaO5C9rSTwHnO9Y5sVsybUWaJuf9SvjZLW4bmk8tIr6pcVJo1MUl%2FC3BXubAlalWTxSLXzrVHkcd%2BYdkIrMFAGu9ZgpFRZy2F1jaVStJ6nkltTnhgLulLJVOc2d7QcVmv10YdB4vmo8DEhJ3HrwwFzvCOsLRwi9toafjh9CF%2BALBmzEzdAscM4iz9ycxPV4H4VRyHtF%2F1uXdoowNJ2R6ColGb0ckMtYP5b%2FJhQ12fhx6NQTQPCpS9t3VSN1TlOZXZVtwr9gIBDQAPYHTFcTwTnlSAk40t%2BmlyK8rarbw7SsXZnRp7OUHf5C3fyY47DjWjEQRrNvXpuGAOspHHczoDvy6Y%2BYm%2F5z0gp3nWKgAzLYJ%2BopghjQBktCveXyEMy%2FxcPdfycu7swX%2F40DrdH2IaHHCcMo6CXQjMC93eVLeBygTajt%2B1of%2FwYEFsCVuAn&itmmeta=wwHmKhYwY%2Fjx0DQwMUtKMlRQV1FUTVdUMFBUWlRHQlBOVzE3ODQwMUtKMlRQV0ZUQ1BSWDhXQ1c0TlJGOUpWQbagDA%3D%3D\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:05:28.406Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-decffeb3d5944cc52e82",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 228,
+                  "column": 9
+                }
+              ]
+            },
+            {
+              "title": "Negative & Edge Case Tests",
+              "file": "relatedProducts.spec.ts",
+              "line": 254,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "TC-015 | @negative @regression | Fewer than 6 best sellers — section shows available items only",
+                  "ok": true,
+                  "tags": [
+                    "negative",
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7797,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:05:35.963Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-60a109dcf01ed007192c",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 260,
+                  "column": 9
+                },
+                {
+                  "title": "TC-016 | @negative | Related products section handles slow network gracefully",
+                  "ok": false,
+                  "tags": [
+                    "negative"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 43157,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1.x-item-title__mainTitle span, [itemprop=\"name\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1.x-item-title__mainTitle span, [itemprop=\"name\"]').first()\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1.x-item-title__mainTitle span, [itemprop=\"name\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1.x-item-title__mainTitle span, [itemprop=\"name\"]').first()\u001b[22m\n\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:300:27",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                              "column": 27,
+                              "line": 300
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 298 |\u001b[39m       \u001b[90m// The page should not crash — basic structure should render\u001b[39m\n \u001b[90m 299 |\u001b[39m       \u001b[36mconst\u001b[39m title \u001b[33m=\u001b[39m productDetailPage\u001b[33m.\u001b[39mmainProductTitle\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 300 |\u001b[39m       \u001b[36mawait\u001b[39m expect(title)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m       \u001b[90m// Scroll to where related products would be — verify no JS error overlay\u001b[39m\n \u001b[90m 303 |\u001b[39m       \u001b[36mawait\u001b[39m scrollToBottom(productDetailPage\u001b[33m.\u001b[39mpage)\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "column": 27,
+                                "line": 300
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1.x-item-title__mainTitle span, [itemprop=\"name\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1.x-item-title__mainTitle span, [itemprop=\"name\"]').first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 298 |\u001b[39m       \u001b[90m// The page should not crash — basic structure should render\u001b[39m\n \u001b[90m 299 |\u001b[39m       \u001b[36mconst\u001b[39m title \u001b[33m=\u001b[39m productDetailPage\u001b[33m.\u001b[39mmainProductTitle\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 300 |\u001b[39m       \u001b[36mawait\u001b[39m expect(title)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m       \u001b[90m// Scroll to where related products would be — verify no JS error overlay\u001b[39m\n \u001b[90m 303 |\u001b[39m       \u001b[36mawait\u001b[39m scrollToBottom(productDetailPage\u001b[33m.\u001b[39mpage)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:300:27\u001b[22m"
+                            }
+                          ],
+                          "stdout": [
+                            {
+                              "text": "Navigating directly to: https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:05:43.772Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-0a6c3-les-slow-network-gracefully-chromium\\test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-0a6c3-les-slow-network-gracefully-chromium\\error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "column": 27,
+                            "line": 300
+                          }
+                        },
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 26572,
+                          "error": {
+                            "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a.s-item__link, .s-item__info > a, .s-item__image-wrapper > a, a[href*=\"/itm/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" target=\"_blank\" data-carousel-tabindex=\"-1\" class=\"s-card__link image-treatment\" data-interactions=\"[{\"actionKind\":\"NAVSRC\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQwA=\"}]\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"\",\"flushImmediately\":false,\"eventProperty\":{\"trackableId\":\"01GDF2P4GS7EBZ8M2AWN707B\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQw…>…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" class=\"su-category-item\" data-expansion=\"OPEN_PRIMARY\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  6 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <li data-scope=\"PRIMARY\" class=\"su-category-item\" data-expansion=\"OPEN_PRIMARY\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+                            "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a.s-item__link, .s-item__info > a, .s-item__image-wrapper > a, a[href*=\"/itm/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" target=\"_blank\" data-carousel-tabindex=\"-1\" class=\"s-card__link image-treatment\" data-interactions=\"[{\"actionKind\":\"NAVSRC\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQwA=\"}]\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"\",\"flushImmediately\":false,\"eventProperty\":{\"trackableId\":\"01GDF2P4GS7EBZ8M2AWN707B\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQw…>…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" class=\"su-category-item\" data-expansion=\"OPEN_PRIMARY\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  6 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <li data-scope=\"PRIMARY\" class=\"su-category-item\" data-expansion=\"OPEN_PRIMARY\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n    at SearchResultsPage.clickFirstResult (C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts:63:34)\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:296:7",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts",
+                              "column": 34,
+                              "line": 63
+                            },
+                            "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SearchResultsPage.ts:63\n\n\u001b[0m \u001b[90m 61 |\u001b[39m     } \u001b[36melse\u001b[39m {\n \u001b[90m 62 |\u001b[39m       \u001b[90m// If we're stuck with a placeholder, try to click a different result or just click and hope\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfirstResultLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     }\n \u001b[90m 66 |\u001b[39m   }\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts",
+                                "column": 34,
+                                "line": 63
+                              },
+                              "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a.s-item__link, .s-item__info > a, .s-item__image-wrapper > a, a[href*=\"/itm/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" target=\"_blank\" data-carousel-tabindex=\"-1\" class=\"s-card__link image-treatment\" data-interactions=\"[{\"actionKind\":\"NAVSRC\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQwA=\"}]\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"\",\"flushImmediately\":false,\"eventProperty\":{\"trackableId\":\"01GDF2P4GS7EBZ8M2AWN707B\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQw…>…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" class=\"su-category-item\" data-expansion=\"OPEN_PRIMARY\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  6 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <li data-scope=\"PRIMARY\" class=\"su-category-item\" data-expansion=\"OPEN_PRIMARY\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-7jfa931=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ac5f4d19c0ab115b708ab5fffb676a\",\"pageci\":\"b0d69e68-0ff7-11f1-971b-dec1124227b1\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SearchResultsPage.ts:63\n\n\u001b[0m \u001b[90m 61 |\u001b[39m     } \u001b[36melse\u001b[39m {\n \u001b[90m 62 |\u001b[39m       \u001b[90m// If we're stuck with a placeholder, try to click a different result or just click and hope\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfirstResultLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     }\n \u001b[90m 66 |\u001b[39m   }\u001b[0m\n\u001b[2m    at SearchResultsPage.clickFirstResult (C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts:63:34)\u001b[22m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:296:7\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 1,
+                          "startTime": "2026-02-22T14:06:28.269Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-0a6c3-les-slow-network-gracefully-chromium-retry1\\test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-0a6c3-les-slow-network-gracefully-chromium-retry1\\video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-0a6c3-les-slow-network-gracefully-chromium-retry1\\error-context.md"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-0a6c3-les-slow-network-gracefully-chromium-retry1\\trace.zip"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts",
+                            "column": 34,
+                            "line": 63
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-54a253c736a8e98d4e90",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 281,
+                  "column": 9
+                },
+                {
+                  "title": "TC-017 | @negative @regression | Related products count never exceeds 6",
+                  "ok": true,
+                  "tags": [
+                    "negative",
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 8678,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Navigating to clean item URL: https://www.ebay.com/itm/325169356706\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:06:56.674Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-b7e72edc351bf134d6d1",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 312,
+                  "column": 9
+                },
+                {
+                  "title": "TC-019 | @negative | Broken product images show placeholder and do not break layout",
+                  "ok": true,
+                  "tags": [
+                    "negative"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 20044,
+                          "error": {
+                            "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a.s-item__link, .s-item__info > a, .s-item__image-wrapper > a, a[href*=\"/itm/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" target=\"_blank\" data-carousel-tabindex=\"-1\" class=\"s-card__link image-treatment\" data-interactions=\"[{\"actionKind\":\"NAVSRC\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQwA=\"}]\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"\",\"flushImmediately\":false,\"eventProperty\":{\"trackableId\":\"01GDF2P4GS7EBZ8M2AWN707B\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQw…>…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  6 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+                            "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a.s-item__link, .s-item__info > a, .s-item__image-wrapper > a, a[href*=\"/itm/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" target=\"_blank\" data-carousel-tabindex=\"-1\" class=\"s-card__link image-treatment\" data-interactions=\"[{\"actionKind\":\"NAVSRC\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQwA=\"}]\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"\",\"flushImmediately\":false,\"eventProperty\":{\"trackableId\":\"01GDF2P4GS7EBZ8M2AWN707B\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQw…>…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  6 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n    at SearchResultsPage.clickFirstResult (C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts:63:34)\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:338:7",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts",
+                              "column": 34,
+                              "line": 63
+                            },
+                            "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SearchResultsPage.ts:63\n\n\u001b[0m \u001b[90m 61 |\u001b[39m     } \u001b[36melse\u001b[39m {\n \u001b[90m 62 |\u001b[39m       \u001b[90m// If we're stuck with a placeholder, try to click a different result or just click and hope\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfirstResultLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     }\n \u001b[90m 66 |\u001b[39m   }\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts",
+                                "column": 34,
+                                "line": 63
+                              },
+                              "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a.s-item__link, .s-item__info > a, .s-item__image-wrapper > a, a[href*=\"/itm/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" target=\"_blank\" data-carousel-tabindex=\"-1\" class=\"s-card__link image-treatment\" data-interactions=\"[{\"actionKind\":\"NAVSRC\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQwA=\"}]\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"\",\"flushImmediately\":false,\"eventProperty\":{\"trackableId\":\"01GDF2P4GS7EBZ8M2AWN707B\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQw…>…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  6 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-zg4i910=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85acecfc19c0acb4771dc882fffb5f58\",\"pageci\":\"c6728b0f-0ff7-11f1-a802-1a9a1d647024\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SearchResultsPage.ts:63\n\n\u001b[0m \u001b[90m 61 |\u001b[39m     } \u001b[36melse\u001b[39m {\n \u001b[90m 62 |\u001b[39m       \u001b[90m// If we're stuck with a placeholder, try to click a different result or just click and hope\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfirstResultLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     }\n \u001b[90m 66 |\u001b[39m   }\u001b[0m\n\u001b[2m    at SearchResultsPage.clickFirstResult (C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts:63:34)\u001b[22m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:338:7\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:07:05.446Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-8977d-der-and-do-not-break-layout-chromium\\test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-8977d-der-and-do-not-break-layout-chromium\\error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts",
+                            "column": 34,
+                            "line": 63
+                          }
+                        },
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 15698,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Navigating to clean item URL: https://www.ebay.com/itm/325169356706\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 1,
+                          "startTime": "2026-02-22T14:07:26.645Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-8977d-der-and-do-not-break-layout-chromium-retry1\\video.webm"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-8977d-der-and-do-not-break-layout-chromium-retry1\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "flaky"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-a260f6b3017286df25b8",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 332,
+                  "column": 9
+                },
+                {
+                  "title": "TC-021 | @negative @regression | Guest user clicking watchlist is prompted to sign in",
+                  "ok": false,
+                  "tags": [
+                    "negative",
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "No watchlist icons found in related products",
+                          "location": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "line": 387,
+                            "column": 14
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 21901,
+                          "error": {
+                            "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a.s-item__link, .s-item__info > a, .s-item__image-wrapper > a, a[href*=\"/itm/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" target=\"_blank\" data-carousel-tabindex=\"-1\" class=\"s-card__link image-treatment\" data-interactions=\"[{\"actionKind\":\"NAVSRC\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQwA=\"}]\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"\",\"flushImmediately\":false,\"eventProperty\":{\"trackableId\":\"01GDF2P4GS7EBZ8M2AWN707B\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQw…>…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  6 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+                            "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a.s-item__link, .s-item__info > a, .s-item__image-wrapper > a, a[href*=\"/itm/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" target=\"_blank\" data-carousel-tabindex=\"-1\" class=\"s-card__link image-treatment\" data-interactions=\"[{\"actionKind\":\"NAVSRC\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQwA=\"}]\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"\",\"flushImmediately\":false,\"eventProperty\":{\"trackableId\":\"01GDF2P4GS7EBZ8M2AWN707B\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQw…>…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  6 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n    at SearchResultsPage.clickFirstResult (C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts:63:34)\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:378:7",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts",
+                              "column": 34,
+                              "line": 63
+                            },
+                            "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SearchResultsPage.ts:63\n\n\u001b[0m \u001b[90m 61 |\u001b[39m     } \u001b[36melse\u001b[39m {\n \u001b[90m 62 |\u001b[39m       \u001b[90m// If we're stuck with a placeholder, try to click a different result or just click and hope\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfirstResultLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     }\n \u001b[90m 66 |\u001b[39m   }\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts",
+                                "column": 34,
+                                "line": 63
+                              },
+                              "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a.s-item__link, .s-item__info > a, .s-item__image-wrapper > a, a[href*=\"/itm/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" target=\"_blank\" data-carousel-tabindex=\"-1\" class=\"s-card__link image-treatment\" data-interactions=\"[{\"actionKind\":\"NAVSRC\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQwA=\"}]\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"\",\"flushImmediately\":false,\"eventProperty\":{\"trackableId\":\"01GDF2P4GS7EBZ8M2AWN707B\",\"interaction\":\"wwFVrK2vRE0lhQY0MREUzME5KNVY2VE1XNkJEMTUAAAg3NDAwDE5BVlNSQw…>…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  6 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a _sp=\"p2351460.m43632.l8405.c1\" class=\"srp-carousel-list__item-link\" href=\"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&Brand=Coach\" data-s-a1lw122=\"{\"eventFamily\":\"LST\",\"eventAction\":\"ACTN\",\"actionKind\":\"NAVSRC\",\"actionKinds\":[\"NAVSRC\"],\"operationId\":\"2351460\",\"flushImmediately\":false,\"eventProperty\":{\"parentrq\":\"85ad87e519c0a770ed4afffbfffb6bca\",\"pageci\":\"de15b873-0ff7-11f1-bb68-4afddd25a715\",\"moduledtl\":\"mi:43632|iid:1|li:8405|luid:24|c:1|scen:MULTI_ASPECT_GUIDANCE_PROVIDER…>…</a> from <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <li data-scope=\"PRIMARY\" data-expansion=\"OPEN_PRIMARY\" class=\"srp-refine__category__item\">…</li> from <div class=\"srp-rail__left\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"srp-river-results\" class=\"srp-river-results clearfix\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SearchResultsPage.ts:63\n\n\u001b[0m \u001b[90m 61 |\u001b[39m     } \u001b[36melse\u001b[39m {\n \u001b[90m 62 |\u001b[39m       \u001b[90m// If we're stuck with a placeholder, try to click a different result or just click and hope\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfirstResultLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     }\n \u001b[90m 66 |\u001b[39m   }\u001b[0m\n\u001b[2m    at SearchResultsPage.clickFirstResult (C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts:63:34)\u001b[22m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:378:7\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:07:43.214Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-616c5-list-is-prompted-to-sign-in-chromium\\test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-616c5-list-is-prompted-to-sign-in-chromium\\error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\pages\\SearchResultsPage.ts",
+                            "column": 34,
+                            "line": 63
+                          }
+                        },
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 8717,
+                          "error": {
+                            "message": "Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, open 'C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\.playwright-artifacts-11\\traces\\7efc51ec427bf7f9f268-241b9999de08005e0e6c-retry1.trace'",
+                            "stack": "Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, open 'C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\.playwright-artifacts-11\\traces\\7efc51ec427bf7f9f268-241b9999de08005e0e6c-retry1.trace'"
+                          },
+                          "errors": [
+                            {
+                              "message": "Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, open 'C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\.playwright-artifacts-11\\traces\\7efc51ec427bf7f9f268-241b9999de08005e0e6c-retry1.trace'"
+                            }
+                          ],
+                          "stdout": [
+                            {
+                              "text": "Navigating to clean item URL: https://www.ebay.com/itm/325169356706\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 1,
+                          "startTime": "2026-02-22T14:08:06.297Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "description": "No watchlist icons found in related products",
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "line": 387,
+                                "column": 14
+                              }
+                            }
+                          ],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-616c5-list-is-prompted-to-sign-in-chromium-retry1\\test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-616c5-list-is-prompted-to-sign-in-chromium-retry1\\error-context.md"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-616c5-list-is-prompted-to-sign-in-chromium-retry1\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-241b9999de08005e0e6c",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 368,
+                  "column": 9
+                },
+                {
+                  "title": "TC-023 | @negative | XSS payload in related product title is safely escaped",
+                  "ok": true,
+                  "tags": [
+                    "negative"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 12,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 11944,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Navigating to clean item URL: https://www.ebay.com/itm/325169356706\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:08:16.525Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-a23ed41788ffef9ee137",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 413,
+                  "column": 9
+                }
+              ]
+            },
+            {
+              "title": "Responsive & Cross-Device Tests",
+              "file": "relatedProducts.spec.ts",
+              "line": 444,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "TC-010 | @regression | Related products section is visible and usable on mobile viewport",
+                  "ok": false,
+                  "tags": [
+                    "regression"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 45000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 12,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 17386,
+                          "error": {
+                            "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-item__link').first()\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dwallet%26_sacat%3D0%26_from%3DR40%26_trksid%3Dm570.l1313&iid=712cf3ba-a339-4d9a-9834-c5…\"\u001b[22m\n\u001b[2m    - waiting for\" https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\"\u001b[22m\n",
+                            "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-item__link').first()\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dwallet%26_sacat%3D0%26_from%3DR40%26_trksid%3Dm570.l1313&iid=712cf3ba-a339-4d9a-9834-c5…\"\u001b[22m\n\u001b[2m    - waiting for\" https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\"\u001b[22m\n\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:461:51",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                              "column": 51,
+                              "line": 461
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 459 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mkeyboard\u001b[33m.\u001b[39mpress(\u001b[32m'Enter'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 460 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 461 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.s-item__link'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 462 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 463 |\u001b[39m\n \u001b[90m 464 |\u001b[39m       \u001b[90m// Scroll down\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "column": 51,
+                                "line": 461
+                              },
+                              "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-item__link').first()\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dwallet%26_sacat%3D0%26_from%3DR40%26_trksid%3Dm570.l1313&iid=712cf3ba-a339-4d9a-9834-c5…\"\u001b[22m\n\u001b[2m    - waiting for\" https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 459 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mkeyboard\u001b[33m.\u001b[39mpress(\u001b[32m'Enter'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 460 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 461 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.s-item__link'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 462 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 463 |\u001b[39m\n \u001b[90m 464 |\u001b[39m       \u001b[90m// Scroll down\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:461:51\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-02-22T14:08:28.560Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-012d8-d-usable-on-mobile-viewport-chromium\\test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-012d8-d-usable-on-mobile-viewport-chromium\\error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "column": 51,
+                            "line": 461
+                          }
+                        },
+                        {
+                          "workerIndex": 13,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 17467,
+                          "error": {
+                            "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-item__link').first()\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dwallet%26_sacat%3D0%26_from%3DR40%26_trksid%3Dm570.l1313&iid=671bd104-41d6-4e11-8cb4-6c…\"\u001b[22m\n\u001b[2m    - waiting for\" https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\"\u001b[22m\n",
+                            "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-item__link').first()\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dwallet%26_sacat%3D0%26_from%3DR40%26_trksid%3Dm570.l1313&iid=671bd104-41d6-4e11-8cb4-6c…\"\u001b[22m\n\u001b[2m    - waiting for\" https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\"\u001b[22m\n\n    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:461:51",
+                            "location": {
+                              "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                              "column": 51,
+                              "line": 461
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 459 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mkeyboard\u001b[33m.\u001b[39mpress(\u001b[32m'Enter'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 460 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 461 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.s-item__link'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 462 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 463 |\u001b[39m\n \u001b[90m 464 |\u001b[39m       \u001b[90m// Scroll down\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                                "column": 51,
+                                "line": 461
+                              },
+                              "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.s-item__link').first()\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dwallet%26_sacat%3D0%26_from%3DR40%26_trksid%3Dm570.l1313&iid=671bd104-41d6-4e11-8cb4-6c…\"\u001b[22m\n\u001b[2m    - waiting for\" https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.ebay.com/sch/i.html?_nkw=wallet&_sacat=0&_from=R40&_trksid=m570.l1313\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 459 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mkeyboard\u001b[33m.\u001b[39mpress(\u001b[32m'Enter'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 460 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 461 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.s-item__link'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 462 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'domcontentloaded'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 463 |\u001b[39m\n \u001b[90m 464 |\u001b[39m       \u001b[90m// Scroll down\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts:461:51\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 1,
+                          "startTime": "2026-02-22T14:08:47.095Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-012d8-d-usable-on-mobile-viewport-chromium-retry1\\test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-012d8-d-usable-on-mobile-viewport-chromium-retry1\\video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-012d8-d-usable-on-mobile-viewport-chromium-retry1\\error-context.md"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\test-results\\relatedProducts-Related-Be-012d8-d-usable-on-mobile-viewport-chromium-retry1\\trace.zip"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Damien\\Downloads\\L.D.R.E. De Silva\\tests\\relatedProducts.spec.ts",
+                            "column": 51,
+                            "line": 461
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "7efc51ec427bf7f9f268-96552d265116b27ff4d6",
+                  "file": "relatedProducts.spec.ts",
+                  "line": 450,
+                  "column": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-22T14:02:25.687Z",
+    "duration": 399363.073,
+    "expected": 6,
+    "skipped": 2,
+    "unexpected": 6,
+    "flaky": 2
+  }
+}

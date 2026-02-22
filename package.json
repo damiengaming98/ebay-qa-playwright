@@ -1,0 +1,29 @@
+{
+  "name": "ebay-qa-playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation framework for eBay Related Best-Seller Products feature",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report reports/html",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:regression": "npx playwright test --grep @regression",
+    "test:negative": "npx playwright test --grep @negative",
+    "lint": "npx tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "qa",
+    "ebay",
+    "testing"
+  ],
+  "author": "QA Engineer",
+  "license": "MIT"
+}

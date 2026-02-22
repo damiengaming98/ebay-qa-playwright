@@ -1,0 +1,1042 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - img
+  - img
+  - generic [ref=e3]:
+    - banner [ref=e7]:
+      - link "Skip to main content" [ref=e9] [cursor=pointer]:
+        - /url: "#mainContent"
+      - navigation [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - text: Hi!
+            - link "Sign in" [ref=e14] [cursor=pointer]:
+              - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F325169356706
+            - generic [ref=e15]:
+              - text: or
+              - link "register" [ref=e16] [cursor=pointer]:
+                - /url: https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F325169356706
+          - link "Daily Deals" [ref=e18] [cursor=pointer]:
+            - /url: https://www.ebay.com/deals
+          - link "Brand Outlet" [ref=e20] [cursor=pointer]:
+            - /url: https://www.ebay.com/b/Brand-Outlet/bn_7115532402
+          - link "Gift Cards" [ref=e22] [cursor=pointer]:
+            - /url: https://www.ebay.com/giftcards
+          - link "Help & Contact" [ref=e24] [cursor=pointer]:
+            - /url: https://www.ebay.com/help/home
+        - generic [ref=e25]:
+          - button "Ship to" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: Ship to
+          - link "Sell" [ref=e30] [cursor=pointer]:
+            - /url: https://www.ebay.com/sl/sell
+          - generic [ref=e31]:
+            - link "Watchlist" [ref=e32] [cursor=pointer]:
+              - /url: https://www.ebay.com/mye/myebay/watchlist
+              - generic [ref=e33]: Watchlist
+              - img
+            - button "Expand Watch List" [ref=e34]
+          - generic [ref=e35]:
+            - link "My eBay" [ref=e36] [cursor=pointer]:
+              - /url: https://www.ebay.com/mys/home?source=GBH
+              - generic [ref=e37]: My eBay
+              - img
+            - button "Expand My eBay" [ref=e38]
+          - button "Expand Notifications" [ref=e41] [cursor=pointer]:
+            - generic [ref=e42]: Expand Notifications
+            - img
+          - generic [ref=e44]:
+            - link "Your shopping cart contains 0 items" [ref=e45] [cursor=pointer]:
+              - /url: https://cart.ebay.com
+              - generic "Your shopping cart contains 0 items" [ref=e46]:
+                - img
+            - button "Expand Cart" [ref=e47]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - link "eBay Home" [ref=e50] [cursor=pointer]:
+            - /url: https://www.ebay.com
+            - img "eBay Home" [ref=e51]
+          - button "Shop by category" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: Shop by category
+            - img
+        - generic [ref=e61]:
+          - status [ref=e62]
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - combobox "Search for anything" [ref=e66]
+              - img
+            - combobox "Select a category for search" [ref=e67]:
+              - option "All Categories" [selected]
+              - option "Antiques"
+              - option "Art"
+              - option "Baby"
+              - option "Books"
+              - option "Business & Industrial"
+              - option "Cameras & Photo"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Accessories"
+              - option "Coins & Paper Money"
+              - option "Collectibles"
+              - option "Computers/Tablets & Networking"
+              - option "Consumer Electronics"
+              - option "Crafts"
+              - option "Dolls & Bears"
+              - option "Movies & TV"
+              - option "eBay Motors"
+              - option "Entertainment Memorabilia"
+              - option "Gift Cards & Coupons"
+              - option "Health & Beauty"
+              - option "Home & Garden"
+              - option "Jewelry & Watches"
+              - option "Music"
+              - option "Musical Instruments & Gear"
+              - option "Pet Supplies"
+              - option "Pottery & Glass"
+              - option "Real Estate"
+              - option "Specialty Services"
+              - option "Sporting Goods"
+              - option "Sports Mem, Cards & Fan Shop"
+              - option "Stamps"
+              - option "Tickets & Experiences"
+              - option "Toys & Hobbies"
+              - option "Travel"
+              - option "Video Games & Consoles"
+              - option "Everything Else"
+          - generic [ref=e68]:
+            - button "Search" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: Search
+            - link "Advanced" [ref=e71] [cursor=pointer]:
+              - /url: https://www.ebay.com/sch/ebayadvsearch
+    - main [ref=e72]:
+      - generic [ref=e74]:
+        - generic [ref=e77]:
+          - region [ref=e79]:
+            - link "LIVE Streaming now Shop exclusive items from trusted sellers Join event" [ref=e81] [cursor=pointer]:
+              - /url: https://ebay.com/ebaylive/events/latest/stream?fallback=category:260012
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - img
+                - generic [ref=e85]: LIVE
+              - generic [ref=e86]: Streaming now
+              - generic [ref=e87]: Shop exclusive items from trusted sellers
+              - button "Join event" [ref=e88]
+          - generic [ref=e97]:
+            - heading "People who viewed this item also viewed" [level=2] [ref=e104]
+            - group [ref=e106]:
+              - list [ref=e109]:
+                - listitem [ref=e110]:
+                  - generic [ref=e112]:
+                    - generic [ref=e118]:
+                      - heading "DiLoro 2 ID Window RFID Blocking Wallets for Men Bifold Top Flip Slim Gem Brown" [level=3] [ref=e119]
+                      - generic [ref=e121]: $34.95
+                      - generic [ref=e123]: + $20.87 delivery
+                      - generic [ref=e125]: Sponsored
+                    - link "DiLoro 2 ID Window RFID Blocking Wallets for Men Bifold Top Flip Slim Gem Brown" [ref=e126] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/374049277206?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26asc%3D20200818143230%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D1%26amclksrc%3DITM%26sd%3D325169356706%26sid%3DAQALAAAAEHwMxm1TDxowWmw21%2BtM2zY%3D%26itm%3D374049277206%26noa%3D0%26plcampt%3D0%3A15948740015%26algo%3DHOMESPLICE.SIM%26ao%3D1%26rk%3D7%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3Dcce55f49bcce447fb484d822fe144206%26pg%3D2332490&_trksid=p2332490.c101224.m-1&itmprp=cksum%3A374049277206cce55f49bcce447fb484d822fe144206%7Cenc%3AAQALAAAA0HU%252FGPBKMoWrH2cpzpvK9FDC5c4FxwFIV%252Bq0okjrJ6w9cB%252BqWqTCByXEsJeNzj%252BLPZ6Y%252Bcb%252BSNENjzLG3DpJu0mvdz8Pql4YkaM7ImWDPZjYSK0DHqymPxlWHctuzf6om8RmdBxNF%252BwzZpkoqu9AMwRmXi634clUdjELLr7uO2fLcqcAfW2%252Fn50o%252Bw8QKBajPz6sNatzBfWY3YK347g0fXHNgG%252Bsd5dnhdKupwdv8hL0FwZDOpQsgi2MAJbSLGqXzGrTf4aI2f%252BIdonhx0p0TJw%253D%7Campid%3APL_CLK%7Cclp%3A2332490&itmmeta=01KJ2V0NE9AH9FKHSTVPCJYXBR
+                - listitem [ref=e127]:
+                  - generic [ref=e129]:
+                    - generic [ref=e135]:
+                      - heading "Handmade Men's Leather Bifold Wallet-Slim Minimalist Design" [level=3] [ref=e136]
+                      - generic [ref=e138]: $50.00
+                      - generic [ref=e140]: + $10.00 delivery
+                    - link "Handmade Men's Leather Bifold Wallet-Slim Minimalist Design" [ref=e141] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/287147202677?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26algo%3DHOMESPLICE.SIM%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D325169356706%26sid%3DAQALAAAAEFBNHVqu5opaWL01MzsioBQ%3D%26itm%3D287147202677%26noa%3D1%26brand%3DUnbranded%26asc%3D20200818143230%26ao%3D1%26rk%3D1%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3Dcce55f49bcce447fb484d822fe144206%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+                - listitem [ref=e142]:
+                  - generic [ref=e144]:
+                    - generic [ref=e150]:
+                      - heading "\"Odolita\" Men's Leather Wallet - Brown" [level=3] [ref=e151]
+                      - generic [ref=e153]: $45.00
+                      - generic [ref=e155]: + $3.99 delivery
+                    - link "\"Odolita\" Men's Leather Wallet - Brown" [ref=e156] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/168147854975?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26algo%3DHOMESPLICE.SIM%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D325169356706%26sid%3DAQALAAAAEBjrSFDjnaXJpSw3%2Butzxj0%3D%26itm%3D168147854975%26noa%3D1%26brand%3DUnbranded%26asc%3D20200818143230%26ao%3D1%26rk%3D2%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3Dcce55f49bcce447fb484d822fe144206%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+                - listitem [ref=e157]:
+                  - generic [ref=e159]:
+                    - generic [ref=e165]:
+                      - heading "Coach Slim Money Clip Billfold Wallet" [level=3] [ref=e166]
+                      - generic [ref=e168]: $25.00
+                      - generic [ref=e170]: + $36.81 delivery
+                    - link "Coach Slim Money Clip Billfold Wallet" [ref=e171] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/117012119273?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26algo%3DHOMESPLICE.SIM%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D325169356706%26sid%3DAQALAAAAEJC%2FERUDH8JgPy7OnNeV2vc%3D%26itm%3D117012119273%26noa%3D1%26brand%3DCoach%26asc%3D20200818143230%26ao%3D1%26rk%3D3%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3Dcce55f49bcce447fb484d822fe144206%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+        - generic [ref=e174]:
+          - generic [ref=e177]:
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - button "Previous image - Item images thumbnails" [disabled] [ref=e181] [cursor=pointer]:
+                  - img
+                - generic [ref=e182]:
+                  - button "Picture 1 of 8" [ref=e183] [cursor=pointer]:
+                    - img "Picture 1 of 8" [ref=e184]
+                  - button "Picture 2 of 8" [ref=e185] [cursor=pointer]:
+                    - img "Picture 2 of 8" [ref=e186]
+                  - button "Picture 3 of 8" [ref=e187] [cursor=pointer]:
+                    - img "Picture 3 of 8" [ref=e188]
+                  - button "Picture 4 of 8" [ref=e189] [cursor=pointer]:
+                    - img "Picture 4 of 8" [ref=e190]
+                  - button "Picture 5 of 8" [ref=e191] [cursor=pointer]:
+                    - img "Picture 5 of 8" [ref=e192]
+                  - button "Picture 6 of 8" [ref=e193] [cursor=pointer]:
+                    - img "Picture 6 of 8" [ref=e194]
+                  - button "Picture 7 of 8" [ref=e195] [cursor=pointer]
+                  - button "Picture 8 of 8" [ref=e196] [cursor=pointer]
+                - button "Next image - Item images thumbnails" [ref=e197] [cursor=pointer]:
+                  - img
+              - generic [ref=e198]:
+                - heading "Picture 1 of 8" [level=2] [ref=e199]
+                - generic [ref=e203]: 7 viewed today
+                - button "Previous image - Item images thumbnails" [ref=e205] [cursor=pointer]:
+                  - img
+                - region "Opens image gallery dialog DiLoro 2-ID Window RFID Blocking Bifold Mens Leather Wallet Dark Brown - Picture 1 of 8" [ref=e206]:
+                  - group "1 of 8" [ref=e207]:
+                    - img "DiLoro 2-ID Window RFID Blocking Bifold Mens Leather Wallet Dark Brown - Picture 1 of 8" [ref=e208]
+                  - group "2 of 8" [ref=e209]:
+                    - img "DiLoro 2-ID Window RFID Blocking Bifold Mens Leather Wallet Dark Brown - Picture 2 of 8" [ref=e210]
+                  - group "3 of 8" [ref=e211]:
+                    - img "DiLoro 2-ID Window RFID Blocking Bifold Mens Leather Wallet Dark Brown - Picture 3 of 8" [ref=e212]
+                  - group "4 of 8" [ref=e213]:
+                    - img "DiLoro 2-ID Window RFID Blocking Bifold Mens Leather Wallet Dark Brown - Picture 4 of 8" [ref=e214]
+                  - group "5 of 8" [ref=e215]:
+                    - img "DiLoro 2-ID Window RFID Blocking Bifold Mens Leather Wallet Dark Brown - Picture 5 of 8" [ref=e216]
+                  - group "6 of 8" [ref=e217]:
+                    - img "DiLoro 2-ID Window RFID Blocking Bifold Mens Leather Wallet Dark Brown - Picture 6 of 8" [ref=e218]
+                  - group "7 of 8" [ref=e219]:
+                    - img "DiLoro 2-ID Window RFID Blocking Bifold Mens Leather Wallet Dark Brown - Picture 7 of 8" [ref=e220]
+                  - group "8 of 8" [ref=e221]:
+                    - img "DiLoro 2-ID Window RFID Blocking Bifold Mens Leather Wallet Dark Brown - Picture 8 of 8" [ref=e222]
+                - generic [ref=e223]:
+                  - button "Opens image gallery" [ref=e224] [cursor=pointer]:
+                    - img
+                  - button "Add to watchlist - 1 watchers" [ref=e226] [cursor=pointer]:
+                    - generic [ref=e227]: "1"
+                    - img
+                - button "Next image - Item images thumbnails" [ref=e229] [cursor=pointer]:
+                  - img
+            - button "Share" [ref=e235] [cursor=pointer]:
+              - img
+              - generic [ref=e236]: Share
+          - generic [ref=e239]:
+            - heading "DiLoro 2-ID Window RFID Blocking Bifold Mens Leather Wallet Dark Brown" [level=1] [ref=e241]
+            - generic [ref=e243] [cursor=pointer]:
+              - generic [ref=e245]:
+                - link [ref=e247]:
+                  - /url: https://www.ebay.com/str/pensandleatherstore?_trksid=p4429486.m3561.l161210
+                  - img [ref=e249]
+                - generic [ref=e250]:
+                  - generic [ref=e251]:
+                    - link "DiLoro.com PensAndLeather Store" [ref=e252]:
+                      - /url: https://www.ebay.com/str/pensandleatherstore?_trksid=p4429486.m3561.l161211
+                    - generic [ref=e254]: (26902)
+                  - generic [ref=e255]:
+                    - button "100% positive" [ref=e257]
+                    - link "Seller's other items" [ref=e259]:
+                      - /url: https://www.ebay.com/str/pensandleatherstore?_trksid=p4429486.m3561.l170197
+                      - generic [ref=e260]: Seller's other items
+                      - generic [ref=e261]: Seller's other items
+                    - button "Contact seller" [ref=e263]
+              - button "See more about this seller" [ref=e265]:
+                - img
+            - generic [ref=e269]:
+              - text: US $34.95
+              - generic [ref=e270]: or Best Offer
+            - generic [ref=e271]:
+              - generic [ref=e272]: "Condition:"
+              - generic [ref=e274]:
+                - generic [ref=e275]:
+                  - generic [ref=e276]: New with tags
+                  - generic [ref=e277]: New with tags
+                - button "More information - About this item condition" [ref=e278] [cursor=pointer]:
+                  - generic [ref=e279]:
+                    - img "More information - About this item condition"
+            - generic [ref=e281]:
+              - generic [ref=e282]: "Quantity:"
+              - generic [ref=e283]:
+                - textbox "Quantity:" [ref=e285]: "1"
+                - generic [ref=e286]: More than 10 available 1 sold
+            - list [ref=e288]:
+              - listitem [ref=e289]:
+                - button "Buy It Now" [ref=e291] [cursor=pointer]:
+                  - generic [ref=e292]: Buy It Now
+              - listitem [ref=e293]:
+                - button "Add to cart" [ref=e295] [cursor=pointer]:
+                  - generic [ref=e296]: Add to cart
+              - listitem [ref=e297]:
+                - link "Make offer" [ref=e299] [cursor=pointer]:
+                  - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F325169356706%3Fboolp%3D1
+                  - generic [ref=e300]: Make offer
+              - listitem [ref=e301]:
+                - link "Add to Watchlist" [ref=e308] [cursor=pointer]:
+                  - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F325169356706
+                  - generic [ref=e309]:
+                    - img
+                    - text: Add to Watchlist
+            - generic [ref=e312]:
+              - generic [ref=e313]:
+                - generic [ref=e314]:
+                  - img
+                - generic [ref=e316]: Other people bought this. 1 has already sold.
+              - generic [ref=e317]:
+                - generic [ref=e318]:
+                  - img
+                - generic [ref=e320]: Hurry before it's gone. 1 person is watching this item.
+            - generic [ref=e325]:
+              - generic [ref=e329]:
+                - generic [ref=e332]: "Shipping:"
+                - generic [ref=e334]:
+                  - generic [ref=e335]:
+                    - text: US $17.44 eBay International Shipping
+                    - button "More information" [ref=e341]:
+                      - img
+                    - text: .
+                    - button "See details for shipping" [ref=e342] [cursor=pointer]:
+                      - generic [ref=e343]:
+                        - text: See details
+                        - generic [ref=e344]: for shipping
+                  - generic [ref=e345]: "Located in: Pompano Beach, FL, United States"
+              - generic [ref=e353]:
+                - text: Save on combined shipping
+                - button "More information on Combined Shipping. Opens a layer." [ref=e359]:
+                  - img
+              - generic [ref=e363]:
+                - generic [ref=e366]: "Delivery:"
+                - generic [ref=e369]:
+                  - text: Estimated between Fri, Apr 10 and Thu, May 7 to 12400
+                  - button "Information - Estimated delivery date - opens a layer" [ref=e375]:
+                    - img
+            - generic [ref=e382]:
+              - generic [ref=e385]: "Returns:"
+              - generic [ref=e388]:
+                - text: 30 days returns. Buyer pays for return shipping. If you use an eBay shipping label, it will be deducted from your refund amount.
+                - button "See details - for more information about returns" [ref=e389] [cursor=pointer]:
+                  - generic [ref=e390]:
+                    - text: See details
+                    - generic [ref=e391]: "- for more information about returns"
+            - generic [ref=e394]:
+              - generic [ref=e398]:
+                - generic [ref=e401]: "Payments:"
+                - generic [ref=e404]:
+                  - img "PayPal" [ref=e405]
+                  - img "Google Pay" [ref=e407]
+                  - img "Visa" [ref=e409]
+                  - img "Master Card" [ref=e411]
+                  - img "Discover" [ref=e413]
+                  - img "Diners Club" [ref=e416]
+              - generic [ref=e424]:
+                - img "Paypal Credit" [ref=e426]
+                - generic [ref=e427]:
+                  - text: Special financing available.
+                  - link "Learn more - for PayPal Credit, opens in a new window or tab" [ref=e428] [cursor=pointer]:
+                    - /url: https://www.billmelater.com/cm/paypal/landers/15ebayPPCNB.html
+                    - generic [ref=e429]:
+                      - text: Learn more
+                      - generic [ref=e430]: "- for PayPal Credit, opens in a new window or tab"
+            - generic [ref=e433]:
+              - heading "Shop with confidence" [level=2] [ref=e436]
+              - generic [ref=e437]:
+                - generic [ref=e439]:
+                  - img
+                - generic [ref=e440]:
+                  - generic [ref=e441]: eBay Money Back Guarantee
+                  - generic [ref=e442]:
+                    - text: Get the item you ordered or your money back.
+                    - link "Learn more eBay Money Back Guarantee - opens new window or tab" [ref=e443] [cursor=pointer]:
+                      - /url: https://www.ebay.com/ebay-money-back-guarantee/
+                      - generic [ref=e444]:
+                        - text: Learn more
+                        - generic [ref=e445]: eBay Money Back Guarantee - opens new window or tab
+        - generic [ref=e446]:
+          - generic [ref=e451]:
+            - tablist [ref=e452]:
+              - tab "About this item" [selected] [ref=e453] [cursor=pointer]:
+                - generic [ref=e454]: About this item
+            - tabpanel "About this item" [ref=e456]:
+              - generic [ref=e459]:
+                - generic [ref=e462]:
+                  - generic [ref=e466]: Seller assumes all responsibility for this listing.
+                  - generic [ref=e470]: eBay item number:325169356706
+                  - generic [ref=e474]:
+                    - text: Last updated on Dec 29, 2025 16:40:53 PST
+                    - link "View all revisions View all revisions" [ref=e475] [cursor=pointer]:
+                      - /url: https://www.ebay.com/rvh/325169356706?rt=nc&_trksid=p4429486.m148105.l48144
+                      - generic [ref=e476]:
+                        - text: View all revisions
+                        - generic [ref=e477]: View all revisions
+                - generic [ref=e480]:
+                  - heading "Item specifics" [level=2] [ref=e483]:
+                    - generic [ref=e484]: Item specifics
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - generic [ref=e489]:
+                        - term [ref=e490]:
+                          - generic [ref=e492]: Condition
+                        - definition [ref=e493]:
+                          - generic [ref=e496]:
+                            - generic [ref=e497]: "New with tags: This item is brand new and has never been used. It still has the original tags and/or ..."
+                            - button "Read more about the condition" [ref=e499]:
+                              - generic [ref=e500]:
+                                - text: Read more
+                                - generic [ref=e501]: about the condition
+                      - generic [ref=e503]:
+                        - term [ref=e504]:
+                          - generic [ref=e506]: Country of Origin
+                        - definition [ref=e507]:
+                          - generic [ref=e509]: India
+                    - generic [ref=e510]:
+                      - generic [ref=e512]:
+                        - term [ref=e513]:
+                          - generic [ref=e515]: Department
+                        - definition [ref=e516]:
+                          - generic [ref=e518]: Men
+                      - generic [ref=e520]:
+                        - term [ref=e521]:
+                          - generic [ref=e523]: Material
+                        - definition [ref=e524]:
+                          - generic [ref=e526]: Leather
+                    - generic [ref=e527]:
+                      - generic [ref=e529]:
+                        - term [ref=e530]:
+                          - generic [ref=e532]: Theme
+                        - definition [ref=e533]:
+                          - generic [ref=e535]: Money
+                      - generic [ref=e537]:
+                        - term [ref=e538]:
+                          - generic [ref=e540]: Type
+                        - definition [ref=e541]:
+                          - generic [ref=e543]: Wallet
+                    - generic [ref=e544]:
+                      - generic [ref=e546]:
+                        - term [ref=e547]:
+                          - generic [ref=e549]: Features
+                        - definition [ref=e550]:
+                          - generic [ref=e552]: Credit Card, RFID Blocking
+                      - generic [ref=e554]:
+                        - term [ref=e555]:
+                          - generic [ref=e557]: Color
+                        - definition [ref=e558]:
+                          - generic [ref=e560]: Dark Brown
+                    - generic [ref=e561]:
+                      - generic [ref=e563]:
+                        - term [ref=e564]:
+                          - generic [ref=e566]: MPN
+                        - definition [ref=e567]:
+                          - generic [ref=e569]: "101"
+                      - generic [ref=e571]:
+                        - term [ref=e572]:
+                          - generic [ref=e574]: Brand
+                        - definition [ref=e575]:
+                          - generic [ref=e577]: DiLoro
+                - generic [ref=e578]:
+                  - generic [ref=e579]: Category
+                  - navigation "breadcrumb" [ref=e582]:
+                    - heading "breadcrumb" [level=2] [ref=e583]
+                    - list [ref=e584]:
+                      - listitem [ref=e585]:
+                        - link "Clothing, Shoes & Accessories" [ref=e586] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Clothing-Shoes-Accessories/11450/bn_1852545
+                        - img
+                      - listitem [ref=e587]:
+                        - link "Men" [ref=e588] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Mens-Clothing-Shoes-Accessories/260012/bn_7116419459
+                        - img
+                      - listitem [ref=e589]:
+                        - link "Men's Accessories" [ref=e590] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Mens-Accessories/4250/bn_1642245
+                        - img
+                      - listitem [ref=e591]:
+                        - link "Wallets" [ref=e592] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Mens-Wallets/2996/bn_739214
+                - generic [ref=e593]:
+                  - heading "Item description from the seller" [level=2] [ref=e596]
+                  - iframe [ref=e597]:
+                    - generic [ref=f5e3]:
+                      - heading "DiLoro 2 ID Window RFID Blocking Leather Wallet for Men in Dark Brown Nappa" [level=1] [ref=f5e4]
+                      - separator [ref=f5e5]
+                      - heading "Product Overview" [level=2] [ref=f5e6]
+                      - 'heading "Color: Dark Brown" [level=4] [ref=f5e7]':
+                        - list [ref=f5e9]:
+                          - listitem [ref=f5e10]: "Color: Dark Brown"
+                      - paragraph [ref=f5e11]: Slim, genuine, soft, Napa leather bifold wallet for men (or women). Equipped with strong RFID blocking technology to protect your personal information such as your driver's license and RFID enabled credit cards. Ships in our elegant black/silver DiLoro Gift Box, ideal for Groomsmen, Birthdays, Anniversaries, Father's Day, Graduation, Christmas and other Special Occasions.
+                      - paragraph [ref=f5e12]: "LAYOUT:"
+                      - paragraph
+                      - list [ref=f5e13]:
+                        - listitem [ref=f5e14]: 2 ID windows allow for quick and easy access when traveling or at the store
+                        - listitem [ref=f5e15]: Securely holds a minimum of 6 credit cards (three on each side)
+                        - listitem [ref=f5e16]: 2 inside slip pockets (one on each side)
+                        - listitem [ref=f5e17]: Double, full-size bill section to keep your currencies organized
+                        - listitem [ref=f5e18]: Convenient slim design, fits most front pockets
+                      - text: "COLORS: Napa Black, Napa Brown and Gemini Brown"
+                      - paragraph
+                      - paragraph [ref=f5e19]: "SKU Item : 101"
+                      - paragraph [ref=f5e20]: "MATERIAL: Soft, top quality, genuine full grain leather"
+                      - paragraph [ref=f5e21]: "DIMENSIONS: 110mm x 83mm x 8mm / 4 ¼\" x 3 ¼\" x ⅜\""
+                      - paragraph [ref=f5e22]: Why should you use an RFID blocking wallet?
+                      - paragraph
+                      - list [ref=f5e23]:
+                        - listitem [ref=f5e24]: Your personal information on cards with RFID chips are vulnerable to theft by pickpockets using RFID scanners unless you have the special linings provided by all DiLoro RFID blocking leather wallets.
+                      - paragraph
+                      - paragraph [ref=f5e25]: What is RFID?
+                      - paragraph
+                      - list [ref=f5e26]:
+                        - listitem [ref=f5e27]: RFID stands for Radio-Frequency Identification. The chip-based technology is used by many industries in many roles and is often used in credit cards or passports to store personal information, which can be transmitted to an RFID scanner.
+                      - paragraph
+                      - paragraph [ref=f5e28]: What is RFID Theft?
+                      - paragraph
+                      - list [ref=f5e29]:
+                        - listitem [ref=f5e30]: RFID theft (often referred to as skimming) is when someone uses a scanner to read and duplicate the personal information from your RFID enabled gear without your knowledge.
+                      - paragraph
+                      - generic [ref=f5e31]:
+                        - generic [ref=f5e32]:
+                          - heading "Features" [level=2] [ref=f5e33]
+                          - list [ref=f5e34]:
+                            - listitem [ref=f5e35]: 100% GENUINE FULL GRAIN LEATHER - Made with fine, soft Napa leather, top quality you can feel every time you pull out your wallet to pay
+                            - listitem [ref=f5e36]: "RFID PROTECTION TECHNOLOGY: all DiLoro wallets use strong RFID blocking technology to protect the information on your cards from unauthorized scanning"
+                            - listitem [ref=f5e37]: 2 ID WINDOWS allow for quick and easy access when traveling or at the store
+                            - listitem [ref=f5e38]: "GIFT BOX: Ships in an elegant DiLoro presentation box ideal for Groomsmen, Birthdays, Anniversaries, Father's Day, Graduation, Christmas and other Special Occasions"
+                            - listitem [ref=f5e39]: "DIMENSIONS: Measures 4 14\" x 3 14\" x 58\" (Empty: 58\" / Full: 1\" thick) 110mm x 83mm x 15mm (Empty: 15mm / Full: 24mm thick) Item #: 101-NABR"
+                        - generic [ref=f5e40]:
+                          - heading "Details" [level=2] [ref=f5e41]
+                          - list [ref=f5e42]:
+                            - listitem [ref=f5e43]: "Product Dimensions: 4.3 x 3.2 x 0.6 inches"
+                            - listitem [ref=f5e44]: "Shipping Weight: 4.5 ounces"
+                            - listitem [ref=f5e45]: "Item model number: 101"
+                      - separator [ref=f5e46]
+                      - generic [ref=f5e47]:
+                        - generic [ref=f5e48]:
+                          - heading "Quality Products" [level=4] [ref=f5e49]
+                          - paragraph [ref=f5e50]: Have peace of mind knowing that your order will arrive original factory sealed packaging. That means that you'll have the full force of the manufacturer's warranty to protect your purchase.
+                        - generic [ref=f5e51]:
+                          - heading "Fast and Free Shipping" [level=4] [ref=f5e52]
+                          - paragraph [ref=f5e53]: You're already purchasing the item. Why pay additional for shipping, especially slow shipping? We get your order shipped out and delivered to your doorstep as quickly as possible.
+                        - generic [ref=f5e54]:
+                          - heading "Commitment" [level=4] [ref=f5e55]
+                          - paragraph [ref=f5e56]: We are committed to making sure that you leave this transaction satisfied. That means having access to real people that get your questions and concerns answered quickly. Give us a shot and we will make sure that you will look to us again!
+          - generic [ref=e600]:
+            - generic [ref=e601]:
+              - generic [ref=e602]:
+                - heading "About this seller" [level=2] [ref=e603]:
+                  - generic [ref=e605]: About this seller
+                - generic [ref=e606]:
+                  - link [ref=e608] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore?_trksid=p4429486.m145687.l149266
+                    - img [ref=e610]
+                  - generic [ref=e611]:
+                    - heading "DiLoro.com PensAndLeather Store" [level=2] [ref=e612]:
+                      - link "DiLoro.com PensAndLeather Store" [ref=e613] [cursor=pointer]:
+                        - /url: https://www.ebay.com/str/pensandleatherstore?_trksid=p4429486.m145687.l149267
+                    - heading "100% positive feedback•48K items sold" [level=4] [ref=e614]
+                - generic [ref=e617]:
+                  - generic [ref=e619]:
+                    - generic [ref=e620]:
+                      - img
+                    - generic [ref=e621]: Joined Mar 2002
+                  - generic [ref=e623]:
+                    - generic [ref=e624]:
+                      - img
+                    - generic [ref=e625]: Usually responds within 24 hours
+                - generic [ref=e627]:
+                  - generic [ref=e628]: PensAndLeather Store always offers 100% Authentic brand name products at competitive prices. We are an authorized reseller for all brands listed. DiLoro, Waterman Pens, Parker, Sensa, Rotring, Lamy ...
+                  - group [ref=e630]:
+                    - generic "See more" [ref=e631]:
+                      - generic [ref=e632]: See more
+                      - generic [ref=e633]:
+                        - img
+                - generic [ref=e634]:
+                  - link "Visit store" [ref=e635] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore?_trksid=p4429486.m145687.l149086
+                    - generic [ref=e636]: Visit store
+                  - button "Contact - opens in a new dialog" [ref=e637] [cursor=pointer]:
+                    - generic [ref=e638]:
+                      - text: Contact
+                      - generic [ref=e639]: "- opens in a new dialog"
+                  - button "Save seller - Save this seller diloro-italy" [ref=e641] [cursor=pointer]:
+                    - generic [ref=e642]:
+                      - img
+                    - generic [ref=e643]: Save seller
+              - generic [ref=e645]:
+                - heading "Detailed seller ratings" [level=3] [ref=e646]
+                - generic [ref=e647]:
+                  - generic [ref=e648]: Average for the last 12 months
+                  - generic [ref=e649]:
+                    - generic [ref=e650]:
+                      - generic [ref=e651]: Accurate description
+                      - progressbar [ref=e652]
+                      - generic [ref=e653]: "5.0"
+                    - generic [ref=e654]:
+                      - generic [ref=e655]: Reasonable shipping cost
+                      - progressbar [ref=e656]
+                      - generic [ref=e657]: "5.0"
+                    - generic [ref=e658]:
+                      - generic [ref=e659]: Shipping speed
+                      - progressbar [ref=e660]
+                      - generic [ref=e661]: "5.0"
+                    - generic [ref=e662]:
+                      - generic [ref=e663]: Communication
+                      - progressbar [ref=e664]
+                      - generic [ref=e665]: "5.0"
+              - generic [ref=e666]:
+                - generic [ref=e667]:
+                  - heading "Popular categories from this store" [level=3] [ref=e668]
+                  - link "See all categories" [ref=e670] [cursor=pointer]:
+                    - /url: https://www.ebay.com/sch/i.html?_dkr=1&iconV2Request=true&_blrs=recall_filtering&_ssn=diloro-italy&store_cat=0&store_name=pensandleatherstore&_oac=1
+                    - generic [ref=e671]:
+                      - text: See all
+                      - generic [ref=e672]: categories
+                - generic [ref=e673]:
+                  - link "Briefcases and Bags" [ref=e675] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore/Briefcases-and-Bags/_i.html?store_cat=6501532015
+                  - link "DiLoro Leather Wallets" [ref=e677] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore/DiLoro-Leather-Wallets/_i.html?store_cat=9536053015
+                  - link "DiLoro Pen Holders Cases" [ref=e679] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore/DiLoro-Pen-Holders-Cases/_i.html?store_cat=9536054015
+                  - link "Filofax Organizers" [ref=e681] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore/Filofax-Organizers/_i.html?store_cat=15249349
+                  - link "Filofax Refills" [ref=e683] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore/Filofax-Refills/_i.html?store_cat=8737319
+                  - link "Handbags Totes Purses" [ref=e685] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore/Handbags-Totes-Purses/_i.html?store_cat=6501864015
+                  - link "Luggage" [ref=e687] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore/Luggage/_i.html?store_cat=5272849015
+                  - link "Pen Cases" [ref=e689] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore/Pen-Cases/_i.html?store_cat=6493034015
+                  - link "Sensa Pens" [ref=e691] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/pensandleatherstore/Sensa-Pens/_i.html?store_cat=4
+            - generic [ref=e694]:
+              - heading "Seller feedback (33,318)" [level=2] [ref=e695]
+              - generic [ref=e696]:
+                - tablist [ref=e697]:
+                  - tab "This item (1)" [ref=e698]:
+                    - generic [ref=e699]: This item (1)
+                  - tab "All items (33,318)" [selected] [ref=e700]:
+                    - generic [ref=e701]: All items (33,318)
+                - tabpanel "All items (33,318)" [ref=e703]:
+                  - generic [ref=e705]:
+                    - generic [ref=e706]:
+                      - 'button "Filter: All ratings" [ref=e709] [cursor=pointer]':
+                        - generic [ref=e710]:
+                          - generic [ref=e711]: "Filter:"
+                          - generic [ref=e712]: All ratings
+                          - img
+                      - list [ref=e713]:
+                        - listitem [ref=e714]:
+                          - link "Shipping" [ref=e715] [cursor=pointer]:
+                            - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=325169356706&username=diloro-italy&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic%3Ashipping&sort=RELEVANCEV2#tab1
+                            - generic:
+                              - generic: Shipping
+                        - listitem [ref=e716]:
+                          - link "Seller satisfaction" [ref=e717] [cursor=pointer]:
+                            - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=325169356706&username=diloro-italy&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic%3Aseller-satisfaction&sort=RELEVANCEV2#tab1
+                            - generic:
+                              - generic: Seller satisfaction
+                        - listitem [ref=e718]:
+                          - link "Description" [ref=e719] [cursor=pointer]:
+                            - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=325169356706&username=diloro-italy&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic%3Adescription&sort=RELEVANCEV2#tab1
+                            - generic:
+                              - generic: Description
+                        - listitem [ref=e720]:
+                          - link "Service" [ref=e721] [cursor=pointer]:
+                            - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=325169356706&username=diloro-italy&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic%3Aservice&sort=RELEVANCEV2#tab1
+                            - generic:
+                              - generic: Service
+                        - listitem [ref=e722]:
+                          - link "Customer Loyalty" [ref=e723] [cursor=pointer]:
+                            - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=325169356706&username=diloro-italy&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic%3Acustomer-loyalty&sort=RELEVANCEV2#tab1
+                            - generic:
+                              - generic: Customer Loyalty
+                        - listitem [ref=e724]:
+                          - link "Packaging" [ref=e725] [cursor=pointer]:
+                            - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=325169356706&username=diloro-italy&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic%3Apackaging&sort=RELEVANCEV2#tab1
+                            - generic:
+                              - generic: Packaging
+                        - listitem [ref=e726]:
+                          - link "Refund" [ref=e727] [cursor=pointer]:
+                            - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=325169356706&username=diloro-italy&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic%3Arefund&sort=RELEVANCEV2#tab1
+                            - generic:
+                              - generic: Refund
+                    - list [ref=e728]:
+                      - listitem [ref=e729]:
+                        - generic [ref=e730]:
+                          - generic [ref=e732]:
+                            - generic [ref=e733]:
+                              - img "Positive feedback rating"
+                            - generic [ref=e734]:
+                              - text: c***6 (1443)
+                              - generic [ref=e735]: "- Feedback left by buyer."
+                            - generic [ref=e738]: Past 6 months
+                            - generic [ref=e739]: Verified purchase
+                          - generic [ref=e741]: Item as described. Great packaging. Quick ship. Great Ebay Seller and Transaction AAA+++
+                          - generic [ref=e742]: DiLoro Leather Pen Case Pouch Holder for One Fountain Ballpoint Rollerball Pe... (#325169355245)
+                      - listitem [ref=e743]:
+                        - generic [ref=e744]:
+                          - generic [ref=e746]:
+                            - generic [ref=e747]:
+                              - img "Positive feedback rating"
+                            - generic [ref=e748]:
+                              - text: c***- (3)
+                              - generic [ref=e749]: "- Feedback left by buyer."
+                            - generic [ref=e752]: Past 6 months
+                            - generic [ref=e753]: Verified purchase
+                          - generic [ref=e755]: Brand new in the box and in perfect condition! Came with 2025 and 2026 inserts which I was not expecting. Absolutely love it and would buy from this seller again.
+                          - generic [ref=e756]: Filofax 2025-2026 Malden Personal Organizer Leather Ochre Paper Size 6.75 x 3.75 (#325222974546)
+                      - listitem [ref=e757]:
+                        - generic [ref=e758]:
+                          - generic [ref=e760]:
+                            - generic [ref=e761]:
+                              - img "Positive feedback rating"
+                            - generic [ref=e762]:
+                              - text: 0***2 (63)
+                              - generic [ref=e763]: "- Feedback left by buyer."
+                            - generic [ref=e766]: Past 6 months
+                            - generic [ref=e767]: Verified purchase
+                          - generic [ref=e769]: The customer service was amazing! She was very helpful. Mailed the parcel promptly and my Filofax came with a bunch of stuff. Praise the Lord I found this seller. Highly recommend. I will buy again if they have the other one I’m looking for.
+                          - generic [ref=e770]: Filofax 2025-2026 Malden Personal Organizer Leather Ochre Paper Size 6.75 x 3.75 (#325222974546)
+                      - listitem [ref=e771]:
+                        - generic [ref=e772]:
+                          - generic [ref=e774]:
+                            - generic [ref=e775]:
+                              - img "Positive feedback rating"
+                            - generic [ref=e776]:
+                              - text: 0***e (1936)
+                              - generic [ref=e777]: "- Feedback left by buyer."
+                            - generic [ref=e780]: Past year
+                            - generic [ref=e781]: Verified purchase
+                          - generic [ref=e783]: Superb. Description, communication, shipping (well handled special circumstances), and price. A model to emulate. Thanks,.
+                          - generic [ref=e784]: DiLoro Leather Double Pen Case Pencil Pouch Holder for Two Fountain Pens Ball... (#325169434500)
+                      - listitem [ref=e785]:
+                        - generic [ref=e786]:
+                          - generic [ref=e788]:
+                            - generic [ref=e789]:
+                              - img "Positive feedback rating"
+                            - generic [ref=e790]:
+                              - text: o***n (726)
+                              - generic [ref=e791]: "- Feedback left by buyer."
+                            - generic [ref=e794]: Past month
+                            - generic [ref=e795]: Verified purchase
+                          - generic [ref=e797]: Fast ship and as described. Thank you!
+                          - link "DiLoro Italy Mens Leather Wallet Bifold Flip ID Section Coin RFID Protection (#325169356698)" [ref=e799] [cursor=pointer]:
+                            - /url: https://www.ebay.com/itm/325169356698
+                            - generic [ref=e800]: DiLoro Italy Mens Leather Wallet Bifold Flip ID Section Coin RFID Protection (#325169356698)
+                      - listitem [ref=e801]:
+                        - generic [ref=e802]:
+                          - generic [ref=e804]:
+                            - generic [ref=e805]:
+                              - img "Positive feedback rating"
+                            - generic [ref=e806]:
+                              - text: 8***g (110)
+                              - generic [ref=e807]: "- Feedback left by buyer."
+                            - generic [ref=e810]: Past 6 months
+                            - generic [ref=e811]: Verified purchase
+                          - generic [ref=e813]: Item and it’s original packaging, excellent condition, quick shipment. Thank you.
+                          - link "Filofax Malden Buffalo Leather Organizer Planner Personal Size Burgundy 2026 (#326910883879)" [ref=e815] [cursor=pointer]:
+                            - /url: https://www.ebay.com/itm/326910883879
+                            - generic [ref=e816]: Filofax Malden Buffalo Leather Organizer Planner Personal Size Burgundy 2026 (#326910883879)
+                      - listitem [ref=e817]:
+                        - generic [ref=e818]:
+                          - generic [ref=e820]:
+                            - generic [ref=e821]:
+                              - img "Neutral feedback rating"
+                            - generic [ref=e822]:
+                              - text: a***a (259)
+                              - generic [ref=e823]: "- Feedback left by buyer."
+                            - generic [ref=e826]: Past year
+                            - generic [ref=e827]: Verified purchase
+                          - generic [ref=e829]: It is a high quality case and a great deal for the money. The Seller was, when asked about a USPS delay (possible loss), offered to send a replacement if it did not arrive. The only thing is that shipping-before the USPS delay- was delayed. Though I purchased the item on May 31st, it did not ship until 7-business days later (on June 9th which was the last day of the 4-9 June delivery window). So, other than the less than expedited shipping, I would recommend this Seller.
+                          - generic [ref=e830]: DiLoro Double Pen Case Pouch Holder Two Pens Pencils Genuine Full Grain Leather (#325169371668)
+                      - listitem [ref=e831]:
+                        - generic [ref=e832]:
+                          - generic [ref=e834]:
+                            - generic [ref=e835]:
+                              - img "Positive feedback rating"
+                            - generic [ref=e836]:
+                              - text: y***g (155)
+                              - generic [ref=e837]: "- Feedback left by buyer."
+                            - generic [ref=e840]: Past month
+                            - generic [ref=e841]: Verified purchase
+                          - generic [ref=e843]: A beautiful pen case, packaged well. Honest eBayer. A++++++
+                          - link "DiLoro Leather Double Pen Case Pouch Two Pens or Pencils Holder in Nappa Black (#325169355270)" [ref=e845] [cursor=pointer]:
+                            - /url: https://www.ebay.com/itm/325169355270
+                            - generic [ref=e846]: DiLoro Leather Double Pen Case Pouch Two Pens or Pencils Holder in Nappa Black (#325169355270)
+                    - link "See all feedback. Opens in a new tab" [ref=e847] [cursor=pointer]:
+                      - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=325169356706&username=diloro-italy&filter=feedback_page%3ARECEIVED_AS_SELLER&sort=RELEVANCEV2#tab1
+                      - text: See all feedback
+          - generic [ref=e849]:
+            - navigation "Quick Links" [ref=e850]:
+              - link "Back to home page" [ref=e851] [cursor=pointer]:
+                - /url: https://www.ebay.com
+              - button "Return to top" [ref=e852] [cursor=pointer]
+            - generic [ref=e854]:
+              - heading "More to explore :" [level=2] [ref=e857]
+              - list [ref=e859]:
+                - listitem [ref=e860]:
+                  - link "Leather RFID Blocking Wallets for Men," [ref=e861] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Leather-RFID-Blocking-Wallets-for-Men/2996/bn_57024755
+                - listitem [ref=e862]:
+                  - link "RFID Blocking Wallets for Men," [ref=e863] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/RFID-Blocking-Wallets-for-Men/2996/bn_36843185
+                - listitem [ref=e864]:
+                  - link "RFID Blocking Leather Wallets for Women," [ref=e865] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/RFID-Blocking-Leather-Wallets-for-Women/45258/bn_56908003
+                - listitem [ref=e866]:
+                  - link "Unbranded Leather Wallets for Men with RFID Blocking," [ref=e867] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Unbranded-Leather-Wallets-for-Men-with-RFID-Blocking/2996/bn_57024767
+                - listitem [ref=e868]:
+                  - link "DOCKERS Leather Wallets for Men with RFID Blocking," [ref=e869] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/DOCKERS-Leather-Wallets-for-Men-with-RFID-Blocking/2996/bn_64899773
+                - listitem [ref=e870]:
+                  - link "Tumi Men's RFID Blocking Wallets," [ref=e871] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Tumi-Mens-RFID-Blocking-Wallets/2996/bn_64900387
+                - listitem [ref=e872]:
+                  - link "Fossil Men's RFID Blocking Wallets," [ref=e873] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Fossil-Mens-RFID-Blocking-Wallets/2996/bn_64897669
+                - listitem [ref=e874]:
+                  - link "RFID Blocking Wallets for Women," [ref=e875] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/RFID-Blocking-Wallets-for-Women/45258/bn_52462497
+                - listitem [ref=e876]:
+                  - link "Timberland Wallets for Men with RFID Blocking," [ref=e877] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Timberland-Wallets-for-Men-with-RFID-Blocking/2996/bn_64899500
+                - listitem [ref=e878]:
+                  - link "Men's Hipster RFID Blocking Wallets" [ref=e879] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Mens-Hipster-RFID-Blocking-Wallets/2996/bn_64894011
+            - generic [ref=e881]:
+              - heading "Shop the Latest Sneakers" [level=2] [ref=e882]
+              - generic [ref=e883]:
+                - generic [ref=e884]:
+                  - heading "Best Sellers" [level=3] [ref=e885]
+                  - list [ref=e886]:
+                    - listitem [ref=e887]:
+                      - link "Nike Dunk Low Retro White Black 2021" [ref=e888] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Nike-Dunk-Low-Retro-White-Black-2021/15709/bn_7118514165
+                        - generic [ref=e889]: Nike Dunk Low Retro White Black 2021
+                    - listitem [ref=e890]:
+                      - link "Jordan 1 KO Syracuse 2022" [ref=e891] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-1-KO-Syracuse-2022/15709/bn_7118563165
+                        - generic [ref=e892]: Jordan 1 KO Syracuse 2022
+                    - listitem [ref=e893]:
+                      - link "Yeezy Boost 700 V1 Mauve" [ref=e894] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Yeezy-Boost-700-V1-Mauve/15709/bn_7117754158
+                        - generic [ref=e895]: Yeezy Boost 700 V1 Mauve
+                    - listitem [ref=e896]:
+                      - link "Jordan 4 SE Black Canvas" [ref=e897] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-4-SE-Black-Canvas/15709/bn_7118593254
+                        - generic [ref=e898]: Jordan 4 SE Black Canvas
+                    - listitem [ref=e899]:
+                      - link "Jordan 1 Retro Low Fragment Design x Travis Scott" [ref=e900] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-1-Retro-Low-Fragment-Design-x-Travis-Scott/15709/bn_7117819170
+                        - generic [ref=e901]: Jordan 1 Retro Low Fragment Design x Travis Scott
+                - generic [ref=e902]:
+                  - heading "Recent Releases" [level=3] [ref=e903]
+                  - list [ref=e904]:
+                    - listitem [ref=e905]:
+                      - link "Jordan 6 Retro Reverse Infrared" [ref=e906] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-6-Retro-Reverse-Infrared/15709/bn_7125055551
+                        - generic [ref=e907]: Jordan 6 Retro Reverse Infrared
+                    - listitem [ref=e908]:
+                      - link "Nike Air Force 1 '07 Wolf Grey White" [ref=e909] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Nike-Air-Force-1-07-Wolf-Grey-White/15709/bn_7121891866
+                        - generic [ref=e910]: Nike Air Force 1 '07 Wolf Grey White
+                    - listitem [ref=e911]:
+                      - link "Jordan Tatum 4 Bruce Lee" [ref=e912] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-Tatum-4-Bruce-Lee/15709/bn_7125079189
+                        - generic [ref=e913]: Jordan Tatum 4 Bruce Lee
+                    - listitem [ref=e914]:
+                      - link "Jordan 4016 Midnight Navy" [ref=e915] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-4016-Midnight-Navy/15709/bn_7125057244
+                        - generic [ref=e916]: Jordan 4016 Midnight Navy
+                    - listitem [ref=e917]:
+                      - link "A Ma Maniére x Air Jordan 4 Retro Dark Mocha" [ref=e918] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/A-Ma-Maniere-x-Air-Jordan-4-Retro-Dark-Mocha/15709/bn_7124560277
+                        - generic [ref=e919]: A Ma Maniére x Air Jordan 4 Retro Dark Mocha
+                - generic [ref=e920]:
+                  - heading "Air Jordan" [level=3] [ref=e921]
+                  - list [ref=e922]:
+                    - listitem [ref=e923]:
+                      - link "Jordan 1" [ref=e924] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-1/15709/bn_98034994
+                        - generic [ref=e925]: Jordan 1
+                    - listitem [ref=e926]:
+                      - link "Jordan 4" [ref=e927] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-4/15709/bn_98034454
+                        - generic [ref=e928]: Jordan 4
+                    - listitem [ref=e929]:
+                      - link "Jordan 11" [ref=e930] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-11/15709/bn_98035912
+                        - generic [ref=e931]: Jordan 11
+                    - listitem [ref=e932]:
+                      - link "Jordan 12" [ref=e933] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-12/15709/bn_98034889
+                        - generic [ref=e934]: Jordan 12
+                    - listitem [ref=e935]:
+                      - link "Jordan 13" [ref=e936] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-13/15709/bn_98035446
+                        - generic [ref=e937]: Jordan 13
+                - generic [ref=e938]:
+                  - heading "Yeezy" [level=3] [ref=e939]
+                  - list [ref=e940]:
+                    - listitem [ref=e941]:
+                      - link "Yeezy Slide" [ref=e942] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/adidas-Yeezy-Slide/15709/bn_7118671215
+                        - generic [ref=e943]: Yeezy Slide
+                    - listitem [ref=e944]:
+                      - link "Yeezy Foam RNNR" [ref=e945] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Yeezy-Foam-RNNR/15709/bn_7117868160
+                        - generic [ref=e946]: Yeezy Foam RNNR
+                    - listitem [ref=e947]:
+                      - link "Yeezy 700" [ref=e948] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Yeezy-Boost-700/15709/bn_98035820
+                        - generic [ref=e949]: Yeezy 700
+                    - listitem [ref=e950]:
+                      - link "Yeezy 350" [ref=e951] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Yeezy-Boost-350/15709/bn_98035262
+                        - generic [ref=e952]: Yeezy 350
+                    - listitem [ref=e953]:
+                      - link "Yeezy 500" [ref=e954] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Yeezy-500/15709/bn_98035034
+                        - generic [ref=e955]: Yeezy 500
+                - generic [ref=e956]:
+                  - heading "Top Brands" [level=3] [ref=e957]
+                  - list [ref=e958]:
+                    - listitem [ref=e959]:
+                      - link "New Balance" [ref=e960] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/New-Balance-Sneakers-for-Men/15709/bn_58747
+                        - generic [ref=e961]: New Balance
+                    - listitem [ref=e962]:
+                      - link "Gucci" [ref=e963] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Gucci-Casual-Shoes-for-Men/24087/bn_60133
+                        - generic [ref=e964]: Gucci
+                    - listitem [ref=e965]:
+                      - link "Vans" [ref=e966] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/VANS-Sneakers-for-Men/15709/bn_59307
+                        - generic [ref=e967]: Vans
+                    - listitem [ref=e968]:
+                      - link "Skechers" [ref=e969] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Skechers-Sneakers-for-Men/15709/bn_59133
+                        - generic [ref=e970]: Skechers
+                    - listitem [ref=e971]:
+                      - link "Reebok" [ref=e972] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Reebok-Sneakers-for-Men/15709/bn_59027
+                        - generic [ref=e973]: Reebok
+            - generic [ref=e975]:
+              - heading "Related searches" [level=2] [ref=e976]
+              - list [ref=e977]:
+                - listitem [ref=e978]:
+                  - link "Men's Leather Bifold Wallet with Id Window" [ref=e979] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/mens-leather-bifold-wallet-with-id-window?_nkw=men%27s+leather+bifold+wallet+with+id+window
+                    - generic [ref=e980]: Men's Leather Bifold Wallet with Id Window
+                - listitem [ref=e981]:
+                  - link "Mens Bifold Wallet with Id Window" [ref=e982] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/mens-bifold-wallet-with-id-window?_nkw=mens+bifold+wallet+with+id+window
+                    - generic [ref=e983]: Mens Bifold Wallet with Id Window
+                - listitem [ref=e984]:
+                  - link "Mens Rfid Wallet" [ref=e985] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/mens-rfid-wallet?_nkw=mens+rfid+wallet
+                    - generic [ref=e986]: Mens Rfid Wallet
+                - listitem [ref=e987]:
+                  - link "Di Lido Wallet" [ref=e988] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/di-lido-wallet?_nkw=di+lido+wallet
+                    - generic [ref=e989]: Di Lido Wallet
+                - listitem [ref=e990]:
+                  - link "Men's Leather Bifold Wallet" [ref=e991] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/mens-leather-bifold-wallet?_nkw=men%27s+leather+bifold+wallet
+                    - generic [ref=e992]: Men's Leather Bifold Wallet
+                - listitem [ref=e993]:
+                  - link "Wallet Men Bifold" [ref=e994] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/wallet-men-bifold?_nkw=wallet+men+bifold
+                    - generic [ref=e995]: Wallet Men Bifold
+                - listitem [ref=e996]:
+                  - link "Rfid Wallet Bifold" [ref=e997] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/rfid-wallet-bifold?_nkw=rfid+wallet+bifold
+                    - generic [ref=e998]: Rfid Wallet Bifold
+                - listitem [ref=e999]:
+                  - link "Mens Wallet Billfold" [ref=e1000] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/mens-wallet-billfold?_nkw=mens+wallet+billfold
+                    - generic [ref=e1001]: Mens Wallet Billfold
+                - listitem [ref=e1002]:
+                  - link "Mens Billfold Wallet" [ref=e1003] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/mens-billfold-wallet?_nkw=mens+billfold+wallet
+                    - generic [ref=e1004]: Mens Billfold Wallet
+                - listitem [ref=e1005]:
+                  - link "Id Wallet for Men" [ref=e1006] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/id-wallet-for-men?_nkw=id+wallet+for+men
+                    - generic [ref=e1007]: Id Wallet for Men
+                - listitem [ref=e1008]:
+                  - link "Mens Bifold Wallet with Zipper" [ref=e1009] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/mens-bifold-wallet-with-zipper?_nkw=mens+bifold+wallet+with+zipper
+                    - generic [ref=e1010]: Mens Bifold Wallet with Zipper
+                - listitem [ref=e1011]:
+                  - link "Wallet for Men Leather" [ref=e1012] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/wallet-for-men-leather?_nkw=wallet+for+men+leather
+                    - generic [ref=e1013]: Wallet for Men Leather
+                - listitem [ref=e1014]:
+                  - link "Wallet for Men" [ref=e1015] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/wallet-for-men?_nkw=wallet+for+men
+                    - generic [ref=e1016]: Wallet for Men
+                - listitem [ref=e1017]:
+                  - link "Mens Wallet with inside Zipper" [ref=e1018] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/mens-wallet-with-inside-zipper?_nkw=mens+wallet+with+inside+zipper
+                    - generic [ref=e1019]: Mens Wallet with inside Zipper
+                - listitem [ref=e1020]:
+                  - link "Mens Wallet Rfid Blocking" [ref=e1021] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/mens-wallet-rfid-blocking?_nkw=mens+wallet+rfid+blocking
+                    - generic [ref=e1022]: Mens Wallet Rfid Blocking
+  - contentinfo [ref=e1031]:
+    - list [ref=e1032]:
+      - listitem [ref=e1033]:
+        - link "About eBay" [ref=e1034] [cursor=pointer]:
+          - /url: https://www.ebayinc.com
+      - listitem [ref=e1035]:
+        - link "Announcements" [ref=e1036] [cursor=pointer]:
+          - /url: https://community.ebay.com/t5/Announcements/bg-p/Announcements
+      - listitem [ref=e1037]:
+        - link "Community" [ref=e1038] [cursor=pointer]:
+          - /url: https://community.ebay.com
+      - listitem [ref=e1039]:
+        - link "Security Center" [ref=e1040] [cursor=pointer]:
+          - /url: https://pages.ebay.com/securitycenter/index.html
+      - listitem [ref=e1041]:
+        - link "Seller Center" [ref=e1042] [cursor=pointer]:
+          - /url: https://www.ebay.com/sellercenter
+      - listitem [ref=e1043]:
+        - link "Policies" [ref=e1044] [cursor=pointer]:
+          - /url: https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205
+      - listitem [ref=e1045]:
+        - link "Affiliates" [ref=e1046] [cursor=pointer]:
+          - /url: https://partnernetwork.ebay.com/
+      - listitem [ref=e1047]:
+        - link "Help & Contact" [ref=e1048] [cursor=pointer]:
+          - /url: https://www.ebay.com/help/home
+      - listitem [ref=e1049]:
+        - link "Site Map" [ref=e1050] [cursor=pointer]:
+          - /url: https://pages.ebay.com/sitemap.html
+    - generic [ref=e1051]:
+      - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+      - link "Accessibility" [ref=e1052] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/accessibility/
+      - text: ","
+      - link "User Agreement" [ref=e1053] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259
+      - text: ","
+      - link "Privacy" [ref=e1054] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+      - text: ","
+      - link "Consumer Health Data" [ref=e1055] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/consumer-health-data-privacy-policy/
+      - text: ","
+      - link "Payments Terms of Use" [ref=e1056] [cursor=pointer]:
+        - /url: https://pages.ebay.com/payment/2.0/terms.html
+      - text: ","
+      - link "Cookies" [ref=e1057] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+      - text: ","
+      - link "CA Privacy Notice" [ref=e1058] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/state-privacy-disclosures/#california
+      - text: ","
+      - link "Your Privacy Choices" [ref=e1059] [cursor=pointer]:
+        - /url: https://www.ebay.com/adchoice/ccpa
+      - text: and
+      - link "AdChoice" [ref=e1060] [cursor=pointer]:
+        - /url: https://www.ebay.com/adchoice
+        - text: AdChoice
+        - img
+  - img
+  - img [ref=e1062]
+```
