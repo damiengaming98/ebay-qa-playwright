@@ -46,8 +46,9 @@ export class SearchResultsPage {
 
     // Extract real item ID and navigate to a clean URL to avoid tracking/redirect errors
     // eBay item IDs are typically 12 digits. We look for 10-15 digits to be safe.
+    // Enhanced regex to handle URLs with slugs: /itm/slug/12345 or /itm/12345
     const href = await this.firstResultLink.getAttribute('href');
-    const itemIdMatch = href?.match(/\/itm\/(\d{10,15})/);
+    const itemIdMatch = href?.match(/\/itm\/(?:.*\/)?(\d{10,15})/);
     const isPlaceholder = itemIdMatch?.[1] === '123456';
 
     if (itemIdMatch && !isPlaceholder) {
@@ -57,10 +58,12 @@ export class SearchResultsPage {
     } else if (href && !href.includes('123456')) {
       // Fallback to full href if ID extraction fails or it's not a known placeholder
       const absoluteUrl = href.startsWith('http') ? href : `https://www.ebay.com${href}`;
+      console.log(`Navigating to full item URL: ${absoluteUrl}`);
       await this.page.goto(absoluteUrl, { waitUntil: 'domcontentloaded' });
     } else {
       // If we're stuck with a placeholder, try to click a different result or just click and hope
-      await this.firstResultLink.click();
+      // Use force: true to bypass potential overlays like cookie banners
+      await this.firstResultLink.click({ force: true });
       await this.page.waitForLoadState('domcontentloaded');
     }
   }
