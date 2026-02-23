@@ -258,4 +258,4 @@ The report is saved to `reports/html/index.html` and includes:
 
 ## 👤 Author
 
-QA Engineer — February 2026
+Damien De Silva — February 2026
