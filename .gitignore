@@ -1,0 +1,9 @@
+node_modules/
+reports/
+test-results/
+*.log
+.DS_Store
+package-lock.json
+playwright-report/
+blob-report/
+test-results/
